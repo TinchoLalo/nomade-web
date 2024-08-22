@@ -74,7 +74,7 @@ export function Confian() {
         <>
             <section id="confian" className="w-screen flex">
                 <div className="mt-40 w-full min-h-screens md:w-full">
-                    <h2 className="text-1 text-4xl color6 font-semibold w-full text-center md:w-[85%] md:text-4xl md:mx-auto md:text-justify">
+                    <h2 className="text-1 text-4xl color6 font-semibold w-full text-center md:w-[85%] md:text-3xl md:mx-auto md:text-justify">
                         Ya confían en nuestra 
                         <span 
                             className="bg-no-repeat bg-contain inline-block"

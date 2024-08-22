@@ -21,19 +21,19 @@ export function Metodo() {
                         </div>
                         
                         <div className="w-full mmd:w-2/4 text-center mt-12 md:mt-32 text-1 mx-auto">
-                            <div className="w-full mmd:w-[85%] h-auto rounded-2xl p-8 bg-color2 mb-8">
+                            <div className="w-full mmd:w-[95%] h-auto rounded-2xl p-8 bg-color2 mb-8">
                                 <h5 className="text-6xl flex text-left absolute">🎲</h5>
                                 <h4 className="ml-20 block text-2xl text-left font-bold">Gamificación</h4>
                                 <p className="ml-20 block text-left">Despierta interés y la colaboración </p>
                             </div>
 
-                            <div className="w-full mmd:w-[85%] h-auto rounded-2xl p-8 bg-color2 mb-8">
+                            <div className="w-full mmd:w-[95%] h-auto rounded-2xl p-8 bg-color2 mb-8">
                                 <h5 className="text-6xl flex text-left absolute">💡</h5>
                                 <h4 className="ml-20 block text-2xl text-left font-bold">Design thinking</h4>
                                 <p className="ml-20 block text-left">Fomenta la creatividad y pensamiento crítico</p>
                             </div>
 
-                            <div className="w-full mmd:w-[85%] h-auto rounded-2xl p-8 bg-color2">
+                            <div className="w-full mmd:w-[95%] h-auto rounded-2xl p-8 bg-color2">
                                 <h5 className="text-6xl flex text-left absolute">📈</h5>
                                 <h4 className="ml-20 block text-2xl text-left font-bold">Por desafíos</h4>
                                 <p className="ml-20 block text-left">Motiva la participación y compromiso</p>
