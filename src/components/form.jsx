@@ -4,7 +4,7 @@ export function Form() {
     return (
         <>
             <section id="form" className="w-screen flex justify-center items-center mx-auto">
-                <div className="mt-24 w-full mx-auto  w-[90%] p-6 bg-white rounded-lg shadow-lg">
+                <div className="mt-24 mx-auto w-[85%] md:w-[90%] p-6 bg-white rounded-lg shadow-lg">
                     <h2 className="text-1 text-3xl color6 font-semibold w-full text-center mb-8">
                         Toda solución comienza con una charla, hablemos
                     </h2>
