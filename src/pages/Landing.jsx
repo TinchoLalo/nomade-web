@@ -3,6 +3,7 @@ import React from "react";
 
 import { Banner } from '../components/banner';
 import { Confian } from '../components/confian';
+import { Metodo } from '../components/metodo';
 
 function Landing() {
   
@@ -11,6 +12,7 @@ function Landing() {
         
           <Banner />
           <Confian />
+          <Metodo />
          
          <br /><br /><br /><br />
         </div>

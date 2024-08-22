@@ -49,7 +49,7 @@ export function Menu({ page }) {
 
                 {/* Mobile Menu */}
                 {menuOpen && (
-                    <div className="absolute top-0 left-0 w-full h-screen bg-color2 flex flex-col items-center justify-center z-40">
+                    <div className="absolute top-0 left-0 w-full h-screen bg-white flex flex-col items-center justify-center z-40">
                         <nav>
                             <ul className="flex flex-col items-center gap-6 text-xl">
                                 <li className={`p-2 ${activeSection === '' ? 'text-white' : ''}`}>
