@@ -54,7 +54,8 @@ body {
     background-color: #FFC912;
 }
 .bg-color2 {
-    background-color: #F166AA;
+    background: linear-gradient(to right, #ffc8126f, #ffac126a);
+
 }
 .bg-color3 {
     background-color: #FAB733;
