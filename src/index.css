@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+  margin: 0;
+   font-family: "Source Sans 3", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.text-1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.color1 {
+    color: #FFC912 ;
+}
+.color2 {
+    color: #616160 ;
+}
+.color3 {
+    color: #FFFFFF;
+}
+.color4 {
+    color: #000000;
+}
+.color5 {
+    color: #EFEADC;
+}
+.color6 {
+    color: #444E4E;
+}
+.color7 {
+    color: #625FA7;
+}
+.degrade1 {
+    color: linear-gradient(to right, #2CD3E2, #F166AA);
+}
+.bordedg1 {
+    border: 2px solid ;
+    border-color: linear-gradient(to right, #2CD3E2, #F166AA);
+}
+
+
+.bg-color1 {
+    background-color: #FFC912;
+}
+.bg-color2 {
+    background-color: #F166AA;
+}
+.bg-color3 {
+    background-color: #FAB733;
+}
+.bg-color4 {
+    background-color: #A459CF;
+
+}
+
+.blur {
+    backdrop-filter: blur(2px);
+}
+
+.diagonal-text {
+    background: repeating-linear-gradient(
+        -60deg,
+        #FBF1FF,
+        #FBF1FF 3px,
+        #9f91b387,
+        #8e74a84b 6px
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+.diagonal-text2 {
+    background: repeating-linear-gradient(
+        -60deg,
+        #ffffff,
+        #ffffff 3px,
+        #9774c993,
+        #9269bb8e 6px
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+.diagonal-text3 {
+    color: black;
+}
+

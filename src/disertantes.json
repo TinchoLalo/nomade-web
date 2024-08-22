@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Pablo Reyes",
+        "image": "pabloreyes",
+        "title": "Desarrollador",
+        "description": "Desarrollador Informático. Fundador y CEO de Reyesoft, una empresa innovadora en la industria del software. La misma se especializa en el desarrollo integral de productos tecnológicos, abarcando todas las etapas desde la concepción inicial hasta el marketing, la comercialización y la mantención. Bajo su liderazgo, la compañía se destaca por ofrecer soluciones completas y de vanguardia que satisfacen las necesidades del mercado actual.",
+        "linkedin": "https://www.linkedin.com/in/pablo-reyes-8b366813/?originalSubdomain=ar" 
+    },
+    {
+        "name": "Mariana Nunes",
+        "image": "mariananunes",
+        "title": "Analista de Datos",
+        "description": "Licenciada en Relaciones Industriales y Máster en Administración de Negocios. Con una amplia experiencia en consultoría de planificación estratégica en las áreas de RRHH, marketing y finanzas, es una profesional destacada en su campo. Como coach ontológico profesional, actualmente lidera la planificación estratégica en Global Solutions.",
+        "linkedin": "https://www.linkedin.com/in/mariana-nunes-86bb9613b/" 
+    },
+    {
+        "name": "Antonella Tassaroli",
+        "image": "tassaroli",
+        "title": "Lic. en Administración",
+        "description": "Lic. en Administración de Empresas, actualmente es Directora de Capital Humano, Relaciones Institucionales y Sostenibilidad  en Tassaroli S.A., una destacada empresa metalmecánica que forma parte de ProPymes. La misma se especializa en la fabricación de productos para la industria energética y minera. Además, ella es la primera mujer vicepresidenta en la Cámara de Empresarios Metalúrgicos y su liderazgo y visión han sido fundamentales para la innovación y sostenibilidad en la industria.",
+        "linkedin": "https://www.linkedin.com/in/antonella-tassaroli-36723228/?originalSubdomain=ar" 
+    },
+    {
+        "name": "Belén Fernández",
+        "image": "belenfernandez",
+        "title": "Agile Coach",
+        "description": "Certificada como Coach Ontológico Profesional, Agile Coach, Scrum Master, Transformación Cultural Ágil y MBA. Coordinando más de 100 equipos de startups e intraemprendedores para desarrollar soluciones tecnológicas basadas en las necesidades del cliente y el valor del negocio. Destaca por el uso de metodologías ágiles para fomentar una cultura de aprendizaje iterativo y continuo, entregando soluciones tecnológicas con propósito y valor.",
+        "linkedin": "https://www.linkedin.com/in/fernandezmbelen/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+    },
+    {
+        "name": "Renata Simonassi",
+        "image": "simonassi",
+        "title": "Ing. Industrial",
+        "description": "Ingeniera Industrial y Líder en Gestión Empresarial. Graduada de la UTN FRSR, ha asumido el liderazgo en la bodega sanrafaelina Simonassi Lyon, un proyecto con más de 30 años de trayectoria. Con una búsqueda constante de crecimiento personal y profesional, ha implementado innovaciones y mejoras continuas en la gestión y operación de la bodega. Su sólida formación técnica y visión estratégica han sido clave para posicionar a Simonassi Lyon como un referente de calidad y excelencia en su industria.",
+        "linkedin": "https://www.linkedin.com/in/renatasimonassi/?originalSubdomain=ar" 
+    },
+    {
+        "name": "Alexis Atem",
+        "image": "alexisatem",
+        "title": "Ing. Industrial",
+        "description": "Ingeniero Industrial y director de Cumbrar, una empresa mendocina que brinda soluciones interdisciplinarias y eficientes a los requerimientos de proyectos y marcas. Convencidos de que existen diferentes maneras de hacer, potencian el cambio dentro de las organizaciones, reactivando su energía vital para alcanzar exitosamente metas y objetivos.",
+        "linkedin": "https://www.linkedin.com/in/alexisatem/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=ar" 
+    },
+    {
+        "name": "Ornella Bianchi",
+        "image": "ornellabianchi",
+        "title": "Lic. en Administración",
+        "description": "Licenciada en Administración, forma parte de la gestión de Plastiandino, empresa familiar dedicada a la fabricación de envases flexibles. Plastiandino, a pesar de haber enfrentado un desafiante incendio hace un año, ha demostrado resiliencia y fortaleza bajo su liderazgo. Su capacidad para manejar crisis y su compromiso con la recuperación de la empresa destacan sus valores de perseverancia y determinación.",
+        "linkedin": "https://www.linkedin.com/in/ornella-bianchi-7956a2139/" 
+    },
+    {
+        "name": "Catalina Toro",
+        "image": "catalinatoro",
+        "title": "Ing. Agronoma",
+        "description": "Presidenta de Fundación Innova. Catalina lidera esta incubadora de startups dedicada a fomentar el emprendimiento y la innovación, ofreciendo asesorías en formulación de proyectos, técnica, marketing y publicidad. Con un Magíster en Gestión y Políticas Públicas, aporta valiosa experiencia y conocimientos, ayudando a emprendedores a alcanzar el éxito. ",
+        "linkedin": "https://www.linkedin.com/in/catalina-toro-parot-55bba392/" 
+    },
+    {
+        "name": "Dario Rojas",
+        "image": "dariorojas",
+        "title": "Ing. Agronomo",
+        "description": "Ingeniero agrónomo con experiencia en gestión y ejecución de proyectos de innovación, y un diplomado en dirección de ventas, es el gerente de proyectos de Fundación Innova",
+        "linkedin": "https://www.linkedin.com/in/dar%C3%ADo-rojas-olave-b7a707114/" 
+    },
+    {
+        "name": "Valeria Juarez",
+        "image": "valeriajuarez",
+        "title": "Ing. Informática",
+        "description": "Ingeniera en informática con una destacada trayectoria en el diseño UX/UI. Fundadora del primer Startup Weekend Youth de Latinoamérica, ha demostrado su capacidad para inspirar a la próxima generación de emprendedores. En 2016, llevó la innovación un paso más allá al introducir los espacios de co-working en Argentina, promoviendo la colaboración y la creatividad en el ecosistema emprendedor. ",
+        "linkedin": "https://www.linkedin.com/in/catalina-toro-parot-55bba392/" 
+    },
+    {
+        "name": "Ángel Quiles",
+        "image": "angelquiles",
+        "title": "Ing. Industrial",
+        "description": "Especialista en Gestión y Vinculación Tecnológica, Ingeniero Industrial de la UTN Facultad Regional San Rafael, Secretario de Extensión Universitaria, fundador y actual Presidente del Polo de Innovación Tecnológica Región Sur Mendoza. Integra la mesa de talento, innovación y educación de la provincia de Mendoza.",
+        "linkedin": "https://www.linkedin.com/in/angel-isma%C3%A9l-quiles-bb0b5527/?originalSubdomain=ar" 
+    },
+    {
+        "name": "Fernando Venegas Calderón",
+        "image": "fernandovenegas",
+        "title": "Abogado",
+        "description": "Fernando es Abogado, Magíster en Derecho y Nuevas Tecnologías, con un MBA. Pionero en la aplicación de IA para el crecimiento empresarial, es especialista en propiedad intelectual y transferencia tecnológica, asesorando a universidades y empresas en planificación estratégica y comercialización de tecnologías.",
+        "linkedin": "https://www.linkedin.com/in/fernando-venegas-calder%C3%B3n-1aa2825b/?originalSubdomain=cl" 
+    },
+    {
+        "name": "Varinka Farren",
+        "image": "varinkafarren",
+        "title": "Ing. Comercial",
+        "description": " Directora Ejecutiva de Hub APTA, con un MBA y es Ingeniera Comercial. Experta en gestión de proyectos de I+D y transferencia tecnológica, ha llevado tecnologías al mercado y liderado programas de innovación.",
+        "linkedin": "https://www.linkedin.com/in/vfarren/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=cl" 
+    },
+    {
+        "name": "Guillermo Quirantes",
+        "image": "guillermoquintares",
+        "title": "Ing. en Electrónica",
+        "description": "Ingeniero en Electrónica y Emprendedor en la Industria Energética. Ejecutivo senior con sólida experiencia en el desarrollo, liderazgo e implementación de soluciones avanzadas para el mercado eléctrico de potencia. Líder de un equipo de ingeniería que diseña e implementa IA y ciencia de datos para promover la máxima eficiencia en sistemas generadores de energía renovable. Su empresa recibió una inversión de 2 millones de USD y ha establecido una sucursal en San Mateo, California.",
+        "linkedin": "https://www.linkedin.com/in/guillermo-andr%C3%A9s-quirantes-95983678/?originalSubdomain=ar" 
+    },
+    {
+        "name": "Edgardo Lopez",
+        "image": "edgardolopez",
+        "title": "Ing. Electromecánico",
+        "description": "Ingeniero Electromecánico y Propietario de Negocios Digitales. Con un posgrado en Energía y una destacada carrera en Chile, lidera la innovación en el mercado de energías sustentables. Enfocado en construir vínculos sólidos y desarrollar estrategias que promuevan la equidad y la sostenibilidad, combina su pasión por la energía, la tecnología y el conocimiento para crear un impacto positivo y duradero en la industria.",
+        "linkedin": "https://www.linkedin.com/in/fabian-edgardo-lopez/" 
+    },
+    {
+        "name": "Silvio Aranguez",
+        "image": "silvioaranguez",
+        "title": "Profesional en Economía y Finanzas",
+        "description": "Profesional del área de Economía y Finanzas, Máster en Management e Inversiones Financieras y Banca Privada. Apasionado por las nuevas tecnologías, actualmente se desempeña como Líder de Innovación, Desarrollo e Investigación para Tassaroli S.A trabajando a nivel global.",
+        "linkedin": "https://www.linkedin.com/in/silvio-aranguez/" 
+    },
+    {
+        "name": "Georgina Fernández",
+        "image": "georgina",
+        "title": "Lic. en Administración",
+        "description": "Magíster en Psicoterapia Gestáltica, Coach Ontológico certificada y Licenciada en Administración. Experta en Transformación Cultural y Gobernanza Ágil. Facilita procesos de aprendizaje y desarrollo personal y organizacional para aumentar el impacto social y promover la colaboración efectiva en contextos complejos. Con experiencia internacional, especializada en prácticas como sociocracia 3.0, comunicación no violenta, teoría U, espiral dinámica, dragon dreaming y mindfulness.",
+        "linkedin": "https://www.linkedin.com/in/mgeofernadez/" 
+    },
+    {
+        "name": "Carlos Zorzoli",
+        "image": "carloszorzoli",
+        "title": "Lic. en Organización Industrial",
+        "description": "Licenciado en Organización Industrial. Consultor y docente especializado en estrategias de mejora continua como Lean Manufacturing. Experto en el gerenciamiento de equipos de producción, logística y áreas de servicio, enfocado en desarrollar equipos polifuncionales y alcanzar resultados operacionales óptimos. Destacado en el manejo de personal mediante liderazgo situacional y coaching.",
+        "linkedin": "https://www.linkedin.com/in/carloszorzoli/?originalSubdomain=ar" 
+    }
+]
