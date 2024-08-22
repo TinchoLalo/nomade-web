@@ -10,7 +10,7 @@ import solucion4 from '../assets/images/soluciones/solucion4.png';
 export function Soluciones() {
     return (
         <>
-            <section id="confian" className="w-screen flex">
+            <section id="soluciones" className="w-screen flex">
                 <div className="mt-40 w-full min-h-screens mmd:w-full">
                     <h2 className="text-1 text-4xl color6 font-semibold w-full text-center mmd:w-[85%] mmd:text-3xl mx-auto text-center">
                         Suite de soluciones: todo lo que necesitas para 

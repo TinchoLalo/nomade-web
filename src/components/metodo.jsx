@@ -6,7 +6,7 @@ import logo from '../assets/images/logo2.svg';
 export function Metodo() {
     return (
         <>  
-            <section id="banner" className="w-screen flex">
+            <section id="metodo" className="w-screen flex">
                 <div className="mt-40 w-full min-h-screens mmd:w-full p-10">
                     <h2 className="text-1 text-4xl color6 font-semibold w-full text-center mmd:text-4xl mx-auto ">
                         El problema no es el tiempo, lo que falta es un método
