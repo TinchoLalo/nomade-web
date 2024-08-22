@@ -6,7 +6,7 @@ import forma2 from '../assets/images/forma2.svg';
 export function Banner() {
     return (
         <>  
-            <section id="banner" className="w-screen  flex ">
+            <section id="banner" className="w-screen flex ">
                 <div className="mt-60 w-full min-h-screens md:w-full md:mt-[28rem]">
                     <h2 className="text-1 text-6xl color6 font-semibold w-3/6 text-left ml-24
                     md:w-[85%] md:text-4xl md:mx-auto md:text-justify">
