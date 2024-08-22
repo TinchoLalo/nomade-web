@@ -6,13 +6,13 @@ import sostenibilidad from '../assets/images/sostenibilidad.svg';
 export function Impacto() {
     return (
         <>  
-            <section id="impacto" className="w-screen flex">
+            <section id="impacto" className="w-full flex">
                 <div className="mt-20 w-full min-h-screens mmd:w-full md:mt-10 p-10">
                    
                     
-                    <div className="flex flex-col mmd:flex-row justify-center text-center mx-auto items-center">
+                    <div className="flex flex-col mmd:flex-row justify-center text-center mx-auto items-center w-full">
                         
-                        <div className="w-full mmd:w-2/4 text-center  mt-20 text-1 mx-auto">
+                        <div className="w-full mmd:w-2/4 text-center mt-20 text-1 mx-auto">
                             <h4 className="text-xl text-center">Nuestro impacto:</h4>
                             <h3 className="text-5xl">Sello compromiso de sostenibilidad</h3>
                             <img src={sostenibilidad} alt="logo" className="w-[50%] mx-auto p-10 opacity-[.6]" />
