@@ -1,60 +1,60 @@
 import React from "react";
 
-import forma2 from '../assets/images/forma2.svg';
 
-import solucion1 from '../assets/images/soluciones/solucion1.png';
-import solucion2 from '../assets/images/soluciones/solucion2.png';
-import solucion3 from '../assets/images/soluciones/solucion3.png';
-import solucion4 from '../assets/images/soluciones/solucion4.png';
+import forma1 from '../assets/images/formas/forma1.png';
+import imagen1 from '../assets/images/soluciones/solucion0.png';
+import imagen2 from '../assets/images/soluciones/solucion5.png';
 
 export function Soluciones() {
     return (
-        <>
+        <>  
             <section id="soluciones" className="w-screen flex">
-                <div className="mt-40 w-full min-h-screens mmd:w-full">
-                    <h2 className="text-1 text-4xl color6 font-semibold w-full text-center mmd:w-[85%] mmd:text-3xl mx-auto text-center">
-                        Suite de soluciones: todo lo que necesitas para 
-                        <span 
-                            className="bg-no-repeat bg-contain inline-block"
-                            style={{
-                                backgroundImage: `url(${forma2})`,
-                                backgroundSize: 'cover',
-                                backgroundPosition: 'center',
-                                padding: '0 1rem'
-                            }}
-                        >
-                            tu talento
-                        </span>
-                    </h2>
+                <div className="mt-16 2xl:mt-8 w-full min-h-screens mmd:w-full p-10 relative overflow-hidden">
+                    
+                    <div className="justify-center text-center mx-auto items-center mb-40 mmd:flex 2xl:mb-20">
+                        
+                        <div className="z-20 w-full mmd:w-2/4 text-left mt-10 text-1 mx-auto ml-40 2xl:ml-20 md:text-center md:mx-auto ">
+                            <h3 className="text-7xl font-semibold md:text-5xl md:text-center color6">Nuestras <br />soluciones<br />modulares</h3>
+                            
+                            <p className="text-xl w-[90%] mt-8 md:mx-auto md:text-left md:w-full">
+                                se <b>adaptan</b> a las necesidades específicas de <b>cada entorno</b> para fortalecer tanto empresas y organizaciones como instituciones educativas.
+                            </p>
 
-                    <div className="w-[90%] mx-auto mt-14 flex flex-col mmd:flex-wrap mmd:flex-row justify-center gap-8 mmd:gap-4">
-                        <div className="w-full mmd:w-[45%] mlg:w-[22%] border-2 px-4 py-6 rounded-3xl mt-20">
-                            <img src={solucion1} alt="Solución 1" className="w-[70%] mx-auto -mt-24" />
-                            <h3 className="text-2xl text-center p-4">Fortalece la cohesión de tu equipo</h3>
-                            <p className="text-justify p-2">Te ayudamos a fortalecer la cohesión de tu equipo y a transmitir tu cultura con asesoramiento y materiales para actividades team building.</p>
-                            <a href="" className="color1 text-center block mt-4 font-semibold hover:text-gray-400">Quiero más info</a>
+                
                         </div>
 
-                        <div className="w-full mmd:w-[45%] mlg:w-[22%] border-2 px-4 py-6 rounded-3xl mt-20">
-                            <img src={solucion2} alt="Solución 2" className="w-[70%] mx-auto -mt-24" />
-                            <h3 className="text-2xl text-center p-4">Capacitaciones efectivas</h3>
-                            <p className="text-justify p-2">Convertimos tus entrenamientos en capacitaciones efectivas mediante consultoría para gamificar procesos de onboarding, upskilling o reskilling.</p>
-                            <a href="" className="color1 text-center block mt-4 font-semibold hover:text-gray-400">Quiero más info</a>
+                        <div className="w-[80%] float-right mr-[-10rem] 2xl:mr-[-6rem] 2xl:w-full md:mx-auto md:float-center z-20 ">
+                        
+                            <div className="w-full mmd:w-[95%] h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20  fade-in slide-in-right">
+                                <img src={imagen1} alt="experiencias" className="w-[25%] rounded-full md:w-[90%] md:mx-auto md:mt-[-5rem]" />
+                                <div className="mmd:ml-16 md:mt-6">
+                                    <h4 className="text-5xl font-bold text-1 2xl:text-4xl md:text-3xl md:mb-4"><span className="text-3 text-5xl md:text-4xl ">nómade</span> for Company</h4>
+                                    <p className="text-xl">La suite que potencia <span className="font-bold">entornos laborales y empresariales</span></p>
+                                    <a href="/nosotros" className="mt-4 text-sm font-medium text-black hover:underline">
+                                    Quiero más info →
+                                    </a>
+                                </div>
+                            </div>
+
+                            
+                            <div className="w-full mmd:w-[95%] mt-10 h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20 z-20 fade-in slide-in-right ">
+                                <img src={imagen2} alt="experiencias" className="w-[25%] rounded-full md:w-[90%] md:mx-auto md:mt-[-5rem]" />
+                                <div className="mmd:ml-16 md:mt-6">
+                                    <h4 className="text-5xl font-bold text-1 2xl:text-4xl md:text-3xl md:mb-4"><span className="text-3 text-5xl md:text-4xl">nómade</span> for Education</h4>
+                                    <p className="text-xl">La suite que potencia <span className="font-bold">entornos educativos y de formación</span></p>
+                                    <a href="/soluciones" className="mt-4 text-sm font-medium text-black hover:underline">
+                                    Quiero más info →
+                                    </a>
+                                </div>
+                            </div>
+
                         </div>
 
-                        <div className="w-full mmd:w-[45%] mlg:w-[22%] border-2 px-4 py-6 rounded-3xl mt-20">
-                            <img src={solucion3} alt="Solución 3" className="w-[70%] mx-auto -mt-24" />
-                            <h3 className="text-2xl text-center p-4">Reconocimiento a colaboradores</h3>
-                            <p className="text-justify p-2">Impulsamos el reconocimiento a tus colaboradores con nuestros programas de beneficios y actividades para celebraciones significativas.</p>
-                            <a href="" className="color1 text-center block mt-4 font-semibold hover:text-gray-400">Quiero más info</a>
-                        </div>
 
-                        <div className="w-full mmd:w-[45%] mlg:w-[22%] border-2 px-4 py-6 rounded-3xl mt-20">
-                            <img src={solucion4} alt="Solución 4" className="w-[70%] mx-auto -mt-24" />
-                            <h3 className="text-2xl text-center p-4">Vocaciones digitales</h3>
-                            <p className="text-justify p-2">Te acompañamos a despertar vocaciones digitales en tu comunidad con programas de RSE para mejorar la empleabilidad de jóvenes.</p>
-                            <a href="" className="color1 text-center block mt-4 font-semibold hover:text-gray-400">Quiero más info</a>
-                        </div>
+                        
+                        
+                        <img src={forma1} alt="forma" className="w-[65%] z-10 absolute bottom-[-38rem] left-[-35rem] origin-left opacity-[.4] 
+                        2xl:bottom-[-28rem] md:left-[-10rem] md:top-[-6rem] md:rotate-45" />
                     </div>
                 </div>
             </section>

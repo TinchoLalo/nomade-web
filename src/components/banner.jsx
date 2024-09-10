@@ -1,43 +1,53 @@
 import React from "react";
-import banner1 from '../assets/images/banner1.png';
-import forma1 from '../assets/images/forma1.svg';
+
+import forma1 from '../assets/images/formas/forma1.png';
 import forma2 from '../assets/images/forma2.svg';
+import { FaArrowDown } from "react-icons/fa6";
 
 export function Banner() {
     return (
         <>  
-            <section id="banner" className="w-screen flex ">
-                <div className="mt-60 w-full min-h-screens md:w-full md:mt-[28rem]">
-                    <h2 className="text-1 text-6xl color6 font-semibold w-3/6 text-left ml-24
-                    md:w-[85%] md:text-4xl md:mx-auto md:text-justify">
-                        Tenemos todo lo <br /> que necesitas para <br />
-                        potenciar tu <span 
-                            className="bg-no-repeat bg-contain inline-block "
+            <section id="banner" className="w-screen min-h-screen flex bg-orange-50">
+                <div className="mt mt-60  w-full min-h-screens md:w-full mx-auto text-center overflow-hidden relative">
+                    
+                    
+                    
+                    <h2 className="z-20 relative text-1 text-7xl color6 w-2/3 text-center mx-auto 
+                    md:w-[80%] md:text-6xl md:mx-auto md:text-center 
+                    
+                    ">
+                        el <b>futuro</b>  del trabajo <br />
+                        <span 
+                            className="bg-no-repeat bg-contain inline-block md:mt-2 "
                             style={{
                                 backgroundImage: `url(${forma2})`,
-                                backgroundSize: 'cover',
+                                backgroundSize: '100%',
                                 backgroundPosition: 'center',
-                                padding: '0 1rem'
+                                padding: '.4rem 3rem'
                             }}
                         >
-                            equipo
+                            es <b>hoy</b>
                         </span>
                     </h2>
-                    <p className="text-xl w-3/6 text-left ml-24 mt-6
-                    lg:w-[85%] lg:mx-auto">
-                    Nuestra suite de soluciones te permite mejorar tus capacitaciones, transmitir tu cultura y desarrollar tus programas de beneficios y RSE de manera simple, efectiva y <span className="font-bold">con impacto.</span>
-                    </p>
+                   
+                            
+                    <p className="z-20 relative mx-[1.2rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full px-10 inline-block text-amber-300
+                    md:text-lg md:mx-2 md:px-2 ">#edTeach</p>
 
-                    <a href="#" className="mt-6 p-4 px-6 my-4 text-white rounded-full text-left ml-24 float-left bg-color1 hover:bg-gray-400 text-2xl font-bold
-                    md:mx-auto lg:w-[65%] md:text-center md:text-xl md:px-2 md:ml-8
-                    ">Agenda una asesoría gratuita</a>
+                    <p className="z-20 relative mx-[1.2rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full  px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2 ">#FutureOfWork</p>
+
+                    <p className="z-20 relative mx-[1.2rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full  px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2  ">#STEAMed</p>
                     
+                    <br />
+                    <a className="mx-4 text-3xl mt-24 mx-auto text-center bg-amber-300 rounded-full py-2 px-16 inline-block text-amber-300 md:mt-32" href="#experiencias">
+                        <FaArrowDown className="text-white"/>
+                    </a>
+                    
+                    <img src={forma1} alt="forma" className="w-[85%] z-10 absolute bottom-[-30rem] right-[-50rem] origin-left opacity-[.3] md:right-[-15rem] md:bottom-[-10rem] md:w-[250rem]" />
                 </div>
-                <img src={forma1} alt="" className=" absolute right-4  max-w-[40%] h-auto object-contain top-[-25rem]  opacity-[.2] 
-                md:top-[-33rem] md:right-0 md:left-0 md:mx-auto md:max-w-full" />
-
-                <img src={banner1} alt="nuestro team" className=" absolute right-16 max-w-[35%] h-auto object-contain top-40 animate-fade animate-duration-1000 animate-ease-linear
-                md:max-w-[70%] md:top-28" />
+                
+               
+                
                
 
             </section>

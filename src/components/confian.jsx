@@ -3,18 +3,17 @@ import React, { useState, useEffect } from "react";
 import forma2 from '../assets/images/forma2.svg';
 
 import confian1 from '../assets/images/confian/mendozaciudad.svg';
-import confian2 from '../assets/images/confian/poloinovacion.svg';
-import confian3 from '../assets/images/confian/itiers.svg';
-import confian4 from '../assets/images/confian/inti.svg';
-import confian5 from '../assets/images/confian/endeavor.svg';
-import confian6 from '../assets/images/confian/maristas.svg';
-import confian7 from '../assets/images/confian/mendozaciudad.svg';
-import confian8 from '../assets/images/confian/naves.svg';
-import confian9 from '../assets/images/confian/poloinovacion.svg';
-import confian10 from '../assets/images/confian/tassaroli.svg';
+import confian2 from '../assets/images/confian/tassaroli.svg';
+import confian3 from '../assets/images/confian/poloinovacion.svg';
+import confian4 from '../assets/images/confian/diputados.png';
+import confian5 from '../assets/images/confian/inti.svg';
+import confian6 from '../assets/images/confian/wise.svg';
+import confian7 from '../assets/images/confian/naves.svg';
+import confian8 from '../assets/images/confian/endeavor.svg';
+import confian9 from '../assets/images/confian/itiers.svg';
+import confian10 from '../assets/images/confian/utn.svg';
 import confian11 from '../assets/images/confian/uncuyo.svg';
-import confian12 from '../assets/images/confian/utn.svg';
-import confian13 from '../assets/images/confian/wise.svg';
+import confian12 from '../assets/images/confian/maristas.svg';
 
 export function Confian() {
     const images = [
@@ -29,8 +28,7 @@ export function Confian() {
         confian9,
         confian10,
         confian11,
-        confian12,
-        confian13
+        confian12
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -72,26 +70,16 @@ export function Confian() {
 
     return (
         <>
-            <section id="confian" className="w-screen flex">
-                <div className="mt-40 w-full min-h-screens md:w-full">
-                    <h2 className="text-1 text-4xl color6 font-semibold w-full text-center md:w-[85%] md:text-3xl md:mx-auto md:text-justify">
-                        Ya confían en nuestra 
-                        <span 
-                            className="bg-no-repeat bg-contain inline-block"
-                            style={{
-                                backgroundImage: `url(${forma2})`,
-                                backgroundSize: 'cover',
-                                backgroundPosition: 'center',
-                                padding: '0 1rem'
-                            }}
-                        >
-                            metodología
-                        </span>
+            <section id="confian" className="w-screen flex shadowbg">
+                <div className="mt-40 w-full min-h-screens md:w-full mb-20">
+                    <h2 className="text-1 text-6xl color6 font-semibold w-full text-center md:w-[85%] md:text-3xl md:mx-auto md:text-justify">
+                        Ya confían en nuestra metodología
+                        
                     </h2>
 
-                    <div className="w-[80%] mx-auto mt-14 flex justify-center gap-2 duration-500 md:gap-0 md:w-[95%]">
+                    <div className="w-[80%] mx-auto mt-24 flex justify-center gap-2 duration-500 md:gap-0 md:w-[95%]">
                         {displayedImages.map((image, index) => (
-                            <img key={index} src={image} alt={`Confianza ${index}`} className="w-40 mx-auto duration-500 animate-fade animate-duration-1000 animate-ease-linear overflow-hidden md:mx-4" />
+                            <img key={index} src={image} alt={`Confianza ${index}`} className="w-40 mx-auto duration-500 animate-fade animate-duration-1000 animate-ease-linear overflow-hidden md:mx-4 grayscale" />
                         ))}
                     </div>
                 </div>

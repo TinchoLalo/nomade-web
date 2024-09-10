@@ -1,32 +1,30 @@
 import React from "react";
 
 
-import { Banner } from '../components/banner';
+import { NosotrosBanner } from '../components/nosotrosBanner';
 import { Confian } from '../components/confian';
-import { Metodo } from '../components/metodo';
+import { Suite } from '../components/suite';
 import { Soluciones } from "../components/soluciones";
 import { Form } from "../components/form";
 import { Experiencias } from "../components/experiencias";
 import { Compromiso } from "../components/compromiso";
 import { Testimonio } from "../components/testimonios";
-import { Contacto } from "../components/contacto";
 
-function Landing() {
+function Nosotros() {
   
     return (
         <div>
         
-            <Banner />
-            <Experiencias/>
-            <Confian />
-            <Soluciones />
-            <Metodo/>
-            <Compromiso/>
-            <Testimonio/>
+            <NosotrosBanner />
+            <Confian/>
+            <Suite/>
+            
+            
             <Form />
-            <Contacto/>
          
+         <br /><br /><br /><br />
+         <p className="text-3 p-2 mx-auto text-center">by Martín La Loggia</p>
         </div>
     );
 }
-export default Landing;
+export default Nosotros;

@@ -5,8 +5,8 @@ export function Form() {
         <>
             <section id="form" className="w-screen flex justify-center items-center mx-auto">
                 <div className="mt-24 mx-auto w-[85%] md:w-[90%] p-6 bg-white rounded-lg shadow-lg">
-                    <h2 className="text-1 text-3xl color6 font-semibold w-full text-center mb-8">
-                        Toda solución comienza con una charla, hablemos
+                    <h2 className="text-1 text-4xl mmd:text-5xl color6 font-semibold w-full text-center mb-8">
+                        Toda <b>solución</b>, comienza con una charla. <b>Agendemos</b>
                     </h2>
 
                     <form className="space-y-6 mx-auto ">

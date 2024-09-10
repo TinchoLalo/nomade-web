@@ -6,19 +6,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
 body {
   margin: 0;
    font-family: "Source Sans 3", sans-serif;
+   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .text-1 {
     font-family: "Montserrat", sans-serif;
 }
 
+.text-2 {
+    font-family: "Source Sans 3", sans-serif;
+}
 
+.text-3 {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
 .color1 {
     color: #FFC912 ;
@@ -39,7 +52,7 @@ body {
     color: #444E4E;
 }
 .color7 {
-    color: #625FA7;
+    color: #f4c434;
 }
 .degrade1 {
     color: linear-gradient(to right, #2CD3E2, #F166AA);
@@ -58,44 +71,78 @@ body {
 
 }
 .bg-color3 {
-    background-color: #FAB733;
-}
-.bg-color4 {
-    background-color: #A459CF;
+    background: linear-gradient(to right, #ffc81231, #ff8d1227);
 
 }
+
+.bg-color4 {
+    background: linear-gradient(to bottom, #ffffff, #f5f5f548);
+}
+
 
 .blur {
     backdrop-filter: blur(2px);
 }
 
-.diagonal-text {
-    background: repeating-linear-gradient(
-        -60deg,
-        #FBF1FF,
-        #FBF1FF 3px,
-        #9f91b387,
-        #8e74a84b 6px
-    );
-    -webkit-background-clip: text;
-    color: transparent;
-    
+.shadowbg {
+    box-shadow: 0 -7px 8px rgba(141, 141, 141, 0.052);
 }
 
-.diagonal-text2 {
-    background: repeating-linear-gradient(
-        -60deg,
-        #ffffff,
-        #ffffff 3px,
-        #9774c993,
-        #9269bb8e 6px
-    );
-    -webkit-background-clip: text;
-    color: transparent;
-    
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-.diagonal-text3 {
-    color: black;
+.fade-in {
+    animation: fadeIn 2s ease-in;
 }
 
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-left {
+    animation: slideInLeft 1.5s ease-out;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-right {
+    animation: slideInRight 1.5s ease-out;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.zoom-in {
+    animation: zoomIn 1s ease-in-out;
+}

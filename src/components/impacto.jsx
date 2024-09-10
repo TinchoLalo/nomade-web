@@ -1,6 +1,5 @@
 import React from "react";
 
-import forma2 from '../assets/images/forma2.svg';
 import sostenibilidad from '../assets/images/sostenibilidad.svg';
 
 export function Impacto() {
@@ -19,7 +18,7 @@ export function Impacto() {
                             
                         </div>
                         
-                        <div className="w-full mmd:w-2/4 text-center md:mt-2 mt-12 md:mt-32 text-1 mx-auto">
+                        <div className="w-full mmd:w-3/4 text-center md:mt-2 mt-12 md:mt-32 text-1 mx-auto">
                             <div className="w-full mmd:w-[95%] h-auto rounded-2xl p-8 bg-color2 mb-8">
                                 <h5 className="text-6xl flex text-left absolute">📊</h5>
                                 <h4 className="ml-20 block text-2xl text-left font-bold">Económico:</h4>
