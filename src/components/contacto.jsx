@@ -63,7 +63,7 @@ export function Contacto() {
                 <a href="https://www.linkedin.com/in/martinlaloggia/" target="_blank" 
                         rel="noopener noreferrer" 
                         className="text-sm md:text-base hover:text-amber-400">
-                by Martín La Loggia</a>
+                Developed by Martín La Loggia</a>
             </div>
         </footer>
     );
