@@ -5,6 +5,7 @@ import { SolucionesBanner } from "../components/solucionesBanner";
 import { Confian } from '../components/confian';
 import { SuiteTalento } from '../components/suiteTalento';
 import { Form } from "../components/form";
+import { Contacto } from "../components/contacto";
 
 function NuestrasSoluciones() {
   
@@ -15,9 +16,7 @@ function NuestrasSoluciones() {
             <Confian/>
             <SuiteTalento/>
             <Form />
-         
-         <br /><br /><br /><br />
-         <p className="text-3 p-2 mx-auto text-center">by Martín La Loggia</p>
+            <Contacto/>
         </div>
     );
 }
