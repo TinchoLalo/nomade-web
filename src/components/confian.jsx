@@ -10,10 +10,9 @@ import confian5 from '../assets/images/confian/inti.svg';
 import confian6 from '../assets/images/confian/wise.svg';
 import confian7 from '../assets/images/confian/naves.svg';
 import confian8 from '../assets/images/confian/endeavor.svg';
-import confian9 from '../assets/images/confian/itiers.svg';
-import confian10 from '../assets/images/confian/utn.svg';
-import confian11 from '../assets/images/confian/uncuyo.svg';
-import confian12 from '../assets/images/confian/maristas.svg';
+import confian9 from '../assets/images/confian/utn.svg';
+import confian10 from '../assets/images/confian/uncuyo.svg';
+import confian11 from '../assets/images/confian/maristas.svg';
 
 export function Confian() {
     const images = [
@@ -27,8 +26,7 @@ export function Confian() {
         confian8,
         confian9,
         confian10,
-        confian11,
-        confian12
+        confian11
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -58,7 +56,7 @@ export function Confian() {
             setCurrentIndex((prevIndex) =>
                 prevIndex === images.length - 1 ? 0 : prevIndex + 1
             );
-        }, 4000); // Cambia cada 4 segundos
+        }, 2000); // Cambia cada 2 segundos
 
         return () => clearInterval(interval); // Limpia el intervalo al desmontar el componente
     }, [images.length]);
@@ -71,8 +69,8 @@ export function Confian() {
     return (
         <>
             <section id="confian" className="w-screen flex shadowbg">
-                <div className="mt-40 w-full min-h-screens md:w-full mb-20">
-                    <h2 className="text-1 text-6xl color6 font-semibold w-full text-center md:w-[85%] md:text-3xl md:mx-auto md:text-justify">
+                <div className="mt-40 w-full min-h-screens md:w-full mb-10">
+                    <h2 className="w-full text-center md:w-[85%]  md:mx-auto md:text-justify text-6xl font-semibold md:text-4xl md:text-center">
                         Ya confían en nuestra metodología
                         
                     </h2>

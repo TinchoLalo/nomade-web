@@ -4,8 +4,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { Menu } from './components/menu';
 import Landing from "./pages/Landing";
+import Company from "./pages/Company";
+import Education from './pages/Education';
 import Nosotros from './pages/Nosotros';
-import Soluciones from './pages/NuestrasSoluciones';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Routes> 
           <Route path="/" element={<Landing />} />
           <Route path="/nosotros" element={<Nosotros />} />
-          <Route path="/soluciones" element={<Soluciones />} />
+          <Route path="/company" element={<Company />} />
+          <Route path="/education" element={<Education />} />
           <Route path="*" element={<div>404 Not Found</div>} />
         </Routes> 
       </div>

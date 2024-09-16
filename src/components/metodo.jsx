@@ -12,13 +12,13 @@ export function Metodo() {
         <>  
             <section id="metodo" className="w-screen flex bg-orange-50 overflow-hidden">
                 <div className="mt-20 w-full min-h-screens mmd:w-full p-10 mb-10 md:mt-2">
-                    <h2 className="text-1 text-4xl color6 font-semibold w-full text-center mmd:text-5xl mx-auto  md:text-lg ">
+                    <h2 className="text-6xl font-semibold md:text-2xl text-center">
                         Aseguramos un aprendizaje que <b>inspira</b> y <b>conecta</b>
                     </h2>
                     
                     <div className="flex flex-col mmd:flex-row justify-center text-center mx-auto items-center">
                         <div className="z-20 w-full mmd:w-2/4 text-left mt-10 text-1 mx-auto ml-40 2xl:ml-20 md:mx-auto ">
-                            <h3 className="text-7xl font-semibold md:text-4xl md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear color6">Nuestra <br />metodología<br /><b>nómadeSTEAM</b></h3>
+                            <h3 className="text-6xl font-semibold md:text-4xl md:text-center md:text-4xl md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear ">Nuestra <br />metodología<br /><b>nómadeSTEAM</b></h3>
                             <p className="text-xl w-[70%] mt-8 md:w-full animate-fade animate-once animate-duration-[2000ms] animate-ease-linear">
                                 garantiza que el aprendizaje sea más atractivo y eficiente fundamentándose en tres pilares clave:
                             </p>

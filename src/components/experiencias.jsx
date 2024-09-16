@@ -12,9 +12,9 @@ export function Experiencias() {
                     <div className="flex flex-col mmd:flex-row justify-center text-center mx-auto items-center mb-20">
                         
                         <div className="w-full mmd:w-2/4 text-left mt-20 text-1 mx-auto ml-40 2xl:ml-20 md:mx-auto md:mt-48">
-                            <h3 className="text-7xl font-semibold md:text-5xl md:text-center">Diseñamos <br />experiencias<br /> de aprendizaje</h3>
+                            <h3 className="text-6xl font-semibold md:text-4xl md:text-center">Diseñamos <br />experiencias<br /> de aprendizaje</h3>
                             
-                            <p className="text-xl w-[70%] mt-8 md:mx-auto md:text-left md:w-full">para que las organizaciones se preparen y adapten a los nuevos desafíos, integrando habilidades blandas y tecnología con un impacto positivo en la comunidad y el medioambiente a través de nuestra metodología gamificada nómadeSTEAM</p>
+                            <p className="text-1 text-xl w-[70%] mt-8 md:mx-auto md:text-left md:w-full">para que las organizaciones se preparen y adapten a los nuevos desafíos, integrando habilidades blandas y tecnología con un impacto positivo en la comunidad y el medioambiente a través de nuestra metodología gamificada nómadeSTEAM</p>
 
                             <button className="mx-4 text-2xl mt-16 mx-auto text-center bg-amber-300 rounded-full py-4 px-8 inline-block text-amber-300 text-white font-semibold md:text-lg  md:mx-8 md:px-4">
                             NUESTRA METODOLOGÍA
