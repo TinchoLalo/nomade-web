@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
+import { useLocation } from 'react-router-dom';
 
 
 export function Metodo() {
+    const location = useLocation();
+
+    useEffect(() => {
+    if (location.hash) {
+        const element = document.getElementById(location.hash.substring(1));
+        if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+    }, [location]);
+
     const fadeInUp = {
         hidden: { opacity: 0, y: 50 },
         visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
@@ -10,13 +22,13 @@ export function Metodo() {
 
     return (
         <>  
-            <section id="metodo" className="w-screen flex bg-orange-50 overflow-hidden">
+            <section  className="w-screen flex bg-orange-50 overflow-hidden">
                 <div className="mt-20 w-full min-h-screens mmd:w-full p-10 mb-10 md:mt-2">
                     <h2 className="text-6xl font-semibold md:text-2xl text-center">
                         Aseguramos un aprendizaje que <b>inspira</b> y <b>conecta</b>
                     </h2>
                     
-                    <div className="flex flex-col mmd:flex-row justify-center text-center mx-auto items-center">
+                    <div  id="metodo" className="flex flex-col mmd:flex-row justify-center text-center mx-auto items-center">
                         <div className="z-20 w-full mmd:w-2/4 text-left mt-10 text-1 mx-auto ml-40 2xl:ml-20 md:mx-auto ">
                             <h3 className="text-6xl font-semibold md:text-4xl md:text-center md:text-4xl md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear ">Nuestra <br />metodología<br /><b>nómadeSTEAM</b></h3>
                             <p className="text-xl w-[70%] mt-8 md:w-full animate-fade animate-once animate-duration-[2000ms] animate-ease-linear">

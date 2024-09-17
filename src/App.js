@@ -7,19 +7,21 @@ import Landing from "./pages/Landing";
 import Company from "./pages/Company";
 import Education from './pages/Education';
 import Nosotros from './pages/Nosotros';
+import ScrollToTop from './components//scrollTop'; // Importa el componente
 
 function App() {
   return (
     <Router>
       <div className="app">
         <Menu />
-        <Routes> 
+        <ScrollToTop /> {/* Añade aquí el componente */}
+        <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/company" element={<Company />} />
           <Route path="/education" element={<Education />} />
           <Route path="*" element={<div>404 Not Found</div>} />
-        </Routes> 
+        </Routes>
       </div>
     </Router>
   );
