@@ -1,5 +1,4 @@
-# Página web del SemEII XV 2024
-
+# Sitio Web de Nómade
 Creada utilizando React y TailwindCSS.
 
 ## Ejecutar el proyecto
