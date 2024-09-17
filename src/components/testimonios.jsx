@@ -53,7 +53,7 @@ export function Testimonio() {
                         {testimonies.map((testimonial, index) => (
                             <motion.div
                                 key={index}
-                                className="delay-700 w-[40%] min-h-[20rem] h-auto rounded-xl p-6 bg-white items-center mt-8 mx-8 z-10 md:w-full md:mt-14"
+                                className="delay-700 w-[40%] min-h-[42rem] h-auto rounded-xl p-6 bg-white items-center mt-8 mx-8 z-10 md:w-full md:mt-14 flexbox"
                                 initial="hidden"
                                 whileInView="visible"
                                 viewport={{ once: true, amount: 0.3 }}

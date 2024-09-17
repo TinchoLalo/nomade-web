@@ -1,7 +1,7 @@
 import React from "react";
 
 import forma1 from '../assets/images/formas/forma1.png';
-import imagen from '../assets/images/soluciones/solucion1.png';
+import imagen from '../assets/images/soluciones/solucion0.png';
 
 export function Experiencias() {
     return (
