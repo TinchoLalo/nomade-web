@@ -5,6 +5,7 @@ import logo from '../assets/images/logo2.svg';
 import forma from '../assets/images/formas/forma1.png';
 
 export function Menu({ page }) {
+
     const [menuOpen, setMenuOpen] = useState(false);
     const location = useLocation();
 
@@ -17,7 +18,8 @@ export function Menu({ page }) {
         const path = location.pathname;
         if (path === "/") return "inicio";
         if (path.includes("/nosotros")) return "nosotros";
-        if (path.includes("/soluciones")) return "soluciones";
+        if (path.includes("/company")) return "company";
+        if (path.includes("/education")) return "education";
         if (path.includes("/asesoria")) return "asesoria";
         return "";
     };
@@ -41,11 +43,11 @@ export function Menu({ page }) {
                             <li className={`font-semibold z-30 p-2 px-4 ${activeSection === 'nosotros' ? 'text-[#FFC912]' : ''}`}>
                                 <Link to="/nosotros" className="hover:text-[#FFC912]">Sobre <br />nosotros</Link>
                             </li>
-                            <li className={`font-semibold z-30 p-2 px-4 ${activeSection === 'soluciones' ? 'text-[#FFC912]' : ''}`}>
-                                <Link to="/soluciones" className="hover:text-[#FFC912]">Nuestras<br />soluciones</Link>
+                            <li className={`font-semibold z-30 p-2 px-4 ${activeSection === 'company' || activeSection === 'education' ? 'text-[#FFC912]' : ''}`}>
+                                <a href="/#soluciones" className="hover:text-[#FFC912]">Nuestras<br />soluciones</a>
                             </li>
                             <li className={`z-30 p-2 my-4 bg-gray-500 rounded-full ${activeSection === 'asesoria' ? 'text-[#FFC912]' : ''}`}>
-                                <Link to="/asesoria" className="px-2 my-auto text-white hover:text-[#FFC912]">ASESORÍA GRATUITA</Link>
+                                <a href="https://calendly.com/hablemos-nomademakerspace/30min" className="font-bold px-2 my-auto text-white hover:text-[#FFC912]">ASESORÍA GRATUITA</a>
                             </li>
                         </ul>
                     </nav>
@@ -67,11 +69,11 @@ export function Menu({ page }) {
                                 <li className={`p-2 ${activeSection === 'nosotros' ? 'color1' : ''}`}>
                                     <Link to="/nosotros" onClick={toggleMenu} className="hover:text-gray-500 font-bold">Sobre nosotros</Link>
                                 </li>
-                                <li className={`p-2 ${activeSection === 'soluciones' ? 'color1' : ''}`}>
-                                    <Link to="/soluciones" onClick={toggleMenu} className="hover:text-gray-500 font-bold">Nuestras soluciones</Link>
+                                <li className={`p-2 ${activeSection === 'company' || activeSection === 'education' ? 'color1' : ''}`}>
+                                    <a href="/#soluciones" onClick={toggleMenu} className="hover:text-gray-500 font-bold">Nuestras soluciones</a>
                                 </li>
                                 <li className={`p-2 bg-gray-500 rounded-full ${activeSection === 'asesoria' ? 'text-white' : ''}`}>
-                                    <Link to="/asesoria" onClick={toggleMenu} className="px-2 text-white hover:text-white">ASESORÍA GRATUITA</Link>
+                                <a href="https://calendly.com/hablemos-nomademakerspace/30min" className="font-bold px-2 my-auto text-white hover:text-[#FFC912]">ASESORÍA GRATUITA</a>
                                 </li>
                             </ul>
                         </nav>

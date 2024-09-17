@@ -31,12 +31,12 @@ export function Banner() {
                     </h2>
                    
                             
-                    <p className="z-20 relative mx-[1.2rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full px-10 inline-block text-amber-300
+                    <p className="z-20 relative mx-[1.3rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full px-10 inline-block text-amber-300
                     md:text-lg md:mx-2 md:px-2 ">#edTeach</p>
 
-                    <p className="z-20 relative mx-[1.2rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full  px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2 ">#FutureOfWork</p>
+                    <p className="z-20 relative mx-[1.3rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full  px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2 ">#FutureOfWork</p>
 
-                    <p className="z-20 relative mx-[1.2rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full  px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2  ">#STEAMed</p>
+                    <p className="z-20 relative mx-[1.3rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full  px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2  ">#STEAMed</p>
                     
                     <br />
                     <a className="mx-4 text-3xl mt-24 mx-auto text-center bg-amber-300 rounded-full py-2 px-16 inline-block text-amber-300 md:mt-32" href="#experiencias">

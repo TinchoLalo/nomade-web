@@ -45,7 +45,7 @@ export function Testimonio() {
         <>
             <section id="testimonios" className="w-screen flex relative overflow-hidden bg-orange-50">
                 <div className="mt-20 w-full p-10 mb-20">
-                    <h2 className="text-4xl font-semibold text-center color6 mmd:text-5xl">
+                    <h2 className="text-6xl font-semibold md:text-4xl text-center">
                         Te contamos <b>testimonios</b> reales que nos <b>enorgullecen</b>
                     </h2>
 
