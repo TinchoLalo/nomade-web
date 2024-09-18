@@ -1,55 +1,69 @@
 import React from "react";
 
-import forma2 from '../assets/images/forma2.svg';
+
 import talento1 from '../assets/images/talento/talento1.png';
 import talento2 from '../assets/images/talento/talento2.png';
 import talento3 from '../assets/images/talento/talento3.png';
 import talento4 from '../assets/images/talento/talento4.png';
 
-// Componente de tarjeta reutilizable
-const Card = ({ imgSrc, title, description, linkText }) => (
-    <div className="w-full mmd:w-[45%] mlg:w-[22%] px-4 py-6 rounded-3xl mt-20 bg-white transform transition duration-300 hover:translate-y-[-10px] hover:shadow-md">
-        <img src={imgSrc} alt={title} className="w-[90%] mx-auto -mt-24" />
-        <h3 className="text-2xl text-center font-semibold text-gray-800 mt-4">{title}</h3>
-        <p className="text-justify text-gray-600 mt-2">{description}</p>
-        <a href="#" className="block text-center mt-4 text-yellow-500 font-semibold hover:text-yellow-700">{linkText}</a>
+const Card = ({ imgSrc, title, description, linkText, url }) => (
+    <div className="w-full mmd:w-[45%] mlg:w-[22%] px-6 py-8 rounded-3xl mt-10 bg-white shadow-sm transform transition duration-300 hover:translate-y-[-10px] hover:shadow-lg">
+        <img 
+            src={imgSrc} 
+            alt={title} 
+            className="w-[95%] h-auto mx-auto mt-[-3rem]" 
+        />
+        <h3 className="color6 text-xl text-center font-bold  mt-6">{title}</h3>
+        <p className="text-justify text-lg text-gray-600 mt-4 px-2">{description}</p>
+        <div className="flex justify-center mt-6">
+            <a 
+                href={url} 
+                className="text-center text-gray-600 font-semibold  hover:text-yellow-500 py-2 px-4 transition-colors duration-200 absolute bottom-4"
+            >
+                {linkText}
+            </a>
+        </div>
     </div>
 );
 
 export function SuiteEducation() {
     return (
         <>
-            <section id="suite" className="w-screen flex bg-orange-50">
+            <section id="suiteEducation" className="w-screen flex bg-orange-50">
                 <div className="mt-20 w-full mb-20">
                     <h2 className="text-center text-4xl text-gray-800 font-semibold w-full mmd:w-[85%] mx-auto md:2-[80%] md:text-3xl">
-                        Suite de soluciones: todo lo que necesitas para <b>tu talento</b>
+                    Transforma tu Instituto con soluciones diseñadas para mejorar la gestión, espacio y habilidades tecnológicas.
                        
                     </h2>
 
                     <div className="w-[90%] mx-auto mt-14 flex flex-col mmd:flex-wrap mmd:flex-row justify-center gap-8 mmd:gap-4">
                         <Card 
                             imgSrc={talento1} 
-                            title="Te ayudamos a simplificar la administración y asegurar transparencia y control" 
-                            description="con un Sistema de Gestión personalizado a través de una aplicación para agilizar la gestión diaria del instituto." 
+                            title="Facilitamos la gestión garantizando mayor transparencia y control." 
+                            description="con un Sistema de Gestión Educativa en nuestra aplicación personalizada." 
                             linkText="Quiero más info" 
+                            url="https://www.youtube.com/watch?v=gT8J9mBsqm8&feature=youtu.be"
                         />
                         <Card 
                             imgSrc={talento2} 
-                            title="Convertimos tus entrenamientos en capacitaciones efectivas" 
-                            description="mediante consultoría para gamificar tus procesos de onboarding, upskilling o reskilling con nuestra metodología STEAM." 
+                            title="Transformamos tu aula en un espacio de creatividad e innovación." 
+                            description="con Mobiliario y equipamiento flexible, adaptable y de rápida instalación y limpieza." 
                             linkText="Quiero más info" 
+                            url="/"
                         />
                         <Card 
                             imgSrc={talento3} 
-                            title="Impulsamos el reconocimiento a tus colaboradores" 
-                            description="con nuestros programas de beneficios. Te proveemos regalos y actividades para celebraciones significativas como el Family Day." 
+                            title="Potenciamos el talento de tus educadores en el uso de tecnología" 
+                            description="con Cursos intensivos y prácticos con Certificació avalada por UTN." 
                             linkText="Quiero más info" 
+                            url="/"
                         />
                         <Card 
                             imgSrc={talento4} 
-                            title="Te acompañamos a despertar vocaciones digitales en tu comunidad" 
-                            description="con programas de RSE para mejorar la empleabilidad de jóvenes. Brindamos talleres IT, kits didácticos S.T.E.A.M." 
+                            title="Sumamos diversión volviendo más atractivo el aprendizaje" 
+                            description="con Kits de Proyectos STEAM interactivos para facilitar labor docente." 
                             linkText="Quiero más info" 
+                            url="/"
                         />
                     </div>
                 </div>

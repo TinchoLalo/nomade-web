@@ -16,7 +16,7 @@ import logo3 from '../assets/images/confian/utn.svg';
 export function Testimonio() {
     const testimonies = [
         {
-            text: "Nuestra asociación con Nómade para nuestro programa Gen Técnico -donde desde 2019 contribuimos a la educación y formación de jóvenes- ha sido sumamente positiva. Su enfoque y metodología han despertado el interés de los estudiantes desde una edad temprana, aumentando así su participación. Apreciamos su contribución en áreas novedosas como Realidad Aumentada, Robótica y Fabricación Digital, así como las dinámicas propuestas, como el concurso, donde los participantes aplicaron sus conocimientos con ideas innovadoras para nuestra ciudad.",
+            text: "Nuestra asociación con Nómade para nuestro programa Gen Técnico -donde desde   2019 contribuimos a la educación y formación de jóvenes- ha sido sumamente positiva. Su enfoque y metodología han despertado el interés de los estudiantes desde una edad temprana, aumentando así su participación. Apreciamos su contribución en áreas novedosas como Realidad Aumentada, Robótica y Fabricación Digital, así como las dinámicas propuestas, como el concurso, donde los participantes aplicaron sus conocimientos con ideas innovadoras para nuestra ciudad.",
             author: "Antonella Tassaroli",
             image: imagen1,
             logo: logo1
@@ -44,8 +44,8 @@ export function Testimonio() {
     return (
         <>
             <section id="testimonios" className="w-screen flex relative overflow-hidden bg-orange-50">
-                <div className="mt-20 w-full p-10 mb-20">
-                    <h2 className="text-6xl font-semibold md:text-4xl text-center">
+                <div className="mt-20 w-full mb-20 ">
+                    <h2 className="text-6xl font-semibold md:text-4xl text-center md:mx-2">
                         Te contamos <b>testimonios</b> reales que nos <b>enorgullecen</b>
                     </h2>
 
@@ -53,26 +53,27 @@ export function Testimonio() {
                         {testimonies.map((testimonial, index) => (
                             <motion.div
                                 key={index}
-                                className="delay-700 w-[40%] min-h-[42rem] h-auto rounded-xl p-6 bg-white items-center mt-8 mx-8 z-10 md:w-full md:mt-14 flexbox"
+                                className="delay-700 w-[40%] h-[42rem] h-auto rounded-xl p-6 bg-white items-center mt-8 mx-8 z-10 md:w-[99%] md:mt-14 flexbox"
                                 initial="hidden"
                                 whileInView="visible"
                                 viewport={{ once: true, amount: 0.3 }}
                                 variants={variants}
                             >
-                                <p className="text-lg text-justify p-2">{testimonial.text}</p>
-                                <div className="mt-10 relative mb-2">
+                                <div className="mt-10 relative mb-2 min-h-[10rem]">
                                     <img
                                         src={testimonial.image}
                                         alt={testimonial.author}
-                                        className="w-[12rem] absolute left-[-4rem] top-[-1rem] grayscale md:left-[-3rem]"
+                                        className="w-[12rem] absolute left-[-4rem] top-[-3rem] grayscale md:left-[-3rem] md:top-[-1rem]"
                                     />
-                                    <h4 className="text-3xl ml-40 text-left">{testimonial.author}</h4>
+                                    <h4 className="text-3xl ml-40 text-left  md:-mt-2">{testimonial.author}</h4>
                                     <img
                                         src={testimonial.logo}
                                         alt={testimonial.author}
-                                        className="mt-6 ml-40 w-40 opacity-40"
+                                        className="mt-6 ml-40 w-40 opacity-40 md:w-32"
                                     />
                                 </div>
+                                <p className="text-lg text-justify p-2 mt-2">{testimonial.text}</p>
+                                
                             </motion.div>
                         ))}
                     </div>

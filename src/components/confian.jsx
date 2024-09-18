@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-import forma2 from '../assets/images/forma2.svg';
-
 import confian1 from '../assets/images/confian/mendozaciudad.svg';
 import confian2 from '../assets/images/confian/tassaroli.svg';
 import confian3 from '../assets/images/confian/poloinovacion.svg';
@@ -70,14 +68,14 @@ export function Confian() {
         <>
             <section id="confian" className="w-screen flex shadowbg">
                 <div className="mt-40 w-full min-h-screens md:w-full mb-10">
-                    <h2 className="w-full text-center md:w-[85%]  md:mx-auto md:text-justify text-6xl font-semibold md:text-4xl md:text-center">
-                        Ya confían en nuestra metodología
+                    <h2 className="w-full text-center md:w-[95%] md:mx-auto md:text-justify text-6xl font-semibold md:text-4xl md:text-center">
+                        Ya confían en nuestra <b>metodología</b>
                         
                     </h2>
 
-                    <div className="w-[80%] mx-auto mt-24 flex justify-center gap-2 duration-500 md:gap-0 md:w-[95%]">
+                    <div className="w-[80%] mx-auto mt-24 flex justify-center gap-2 duration-500 md:gap-0 md:w-[100%] md:mt-14">
                         {displayedImages.map((image, index) => (
-                            <img key={index} src={image} alt={`Confianza ${index}`} className="w-40 mx-auto duration-500 animate-fade animate-duration-1000 animate-ease-linear overflow-hidden md:mx-4 grayscale" />
+                            <img key={index} src={image} alt={`Confianza ${index}`} className="w-40 mx-auto duration-500 animate-fade animate-duration-1000 animate-ease-linear overflow-hidden md:mx-4 grayscale md:w-60" />
                         ))}
                     </div>
                 </div>
