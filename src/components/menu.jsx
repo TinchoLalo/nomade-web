@@ -101,10 +101,10 @@ export function Menu({ page }) {
                                 <li className={`p-2 ${activeSection === 'company' || activeSection === 'education' ? 'color1' : ''}`}>
                                     <a href="/#soluciones" onClick={toggleMenu} className="hover:text-gray-500 font-bold">Nuestras soluciones</a>
                                 </li>
-                                <li className={`p-2 bg-gray-500 rounded-full ${activeSection === 'asesoria' ? 'text-white' : ''}`}>
+                                <li className={`p-2 bg-gray-500 hover:bg-[#ffb300]  rounded-full ${activeSection === 'asesoria' ? 'text-white' : ''}`}>
                                 <button
                                     onClick={openCalendlyPopup}
-                                    className="font-bold px-4 py-2 text-white bg-[#FFC912] hover:bg-[#ffb300] rounded"
+                                    className="font-bold px-4 py-2 text-white"
                                     >
                                     ASESORÍA GRATUITA
                                 </button>
