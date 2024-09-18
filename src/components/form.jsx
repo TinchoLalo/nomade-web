@@ -1,15 +1,35 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 export function Form() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('nomademaker', 'nomademaker', form.current, {
+            publicKey: 'user_YZyG9rLPkZlHWdHNzVmMh',
+          })
+            .then((result) => {
+                console.log(result.text);
+                alert("Mensaje enviado correctamente!");
+            }, (error) => {
+                console.log(error.text);
+                alert("Falló al enviar el mensaje, por favor intentalo de nuevo.");
+            });
+
+        
+    };
+
     return (
         <>
             <section id="form" className="w-screen flex justify-center items-center mx-auto">
-                <div className="mt-24 mx-auto w-[85%] md:w-[90%] p-6 bg-white rounded-lg shadow-lg">
+                <div className="mt-24 mx-auto w-[85%] md:w-[98%] p-6 bg-white rounded-lg shadow-lg">
                     <h2 className="text-6xl font-semibold md:text-4xl w-full text-center mb-8">
-                        Toda <b>solución</b>, comienza con una charla. <b>Agendemos</b>
+                        Toda <b>solución</b>, comienza con una charla. <b>Hablemos</b>
                     </h2>
 
-                    <form className="space-y-6 mx-auto ">
+                    <form ref={form} onSubmit={sendEmail} className="space-y-6 mx-auto ">
                         <div>
                             <label htmlFor="name" className="block text-lg font-medium text-gray-700">Nombre</label>
                             <input
