@@ -10,8 +10,6 @@ export function Banner() {
             <section id="banner" className="w-screen min-h-screen flex bg-orange-50">
                 <div className="mt mt-60  w-full min-h-screens md:w-full mx-auto text-center overflow-hidden relative">
                     
-                    
-                    
                     <h2 className="z-20 relative text-1 text-7xl color6 w-2/3 text-center mx-auto 
                     md:w-[90%] md:text-6xl md:mx-auto md:text-center 
                     4xl:text-8xl 
@@ -31,12 +29,12 @@ export function Banner() {
                     </h2>
                    
                             
-                    <p className="z-20 relative mx-[1.3rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full px-10 inline-block text-amber-300
+                    <p className="z-20 relative mx-[1rem] text-2xl mt-24 text-center border-amber-300 border-2 rounded-full px-10 inline-block text-amber-300
                     md:text-lg md:mx-2 md:px-2 ">#edTeach</p>
 
-                    <p className="z-20 relative mx-[1.3rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full  px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2 ">#FutureOfWork</p>
+                    <p className="z-20 relative mx-[1rem] text-2xl mt-24 text-center border-amber-300 border-2 rounded-full  px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2 ">#FutureOfWork</p>
 
-                    <p className="z-20 relative mx-[1.3rem] text-2xl mt-24 mx-auto text-center border-amber-300 border-2 rounded-full  px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2  ">#STEAMed</p>
+                    <p className="z-20 relative mx-[1rem] text-2xl mt-24 text-center border-amber-300 border-2 rounded-full px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2  ">#STEAMed</p>
                     
                     <br />
                     <a className="mx-4 text-3xl mt-24 mx-auto text-center bg-amber-300 rounded-full py-2 px-16 inline-block text-amber-300 md:mt-10" href="#experiencias">

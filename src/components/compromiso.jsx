@@ -27,7 +27,7 @@ export function Compromiso() {
         <>
             <section  className="w-screen flex bg-white relative overflow-hidden mx-auto text-center">
                 <div id="compromiso" className="mt-20 w-full min-h-screens mmd:p-10 mb-20 md:p-8 mx-auto text-center">
-                    <h2 className="text-6xl font-semibold md:text-4xl md:text-center w-full text-center mx-auto z-20 relative">
+                    <h2 className="text-1 mmd:px-6 text-6xl  md:text-3xl md:text-center w-full text-center mx-auto z-20 relative">
                     Cada experiencia no solo <b>fortalece a tu equipo</b>, sino que <b>impacta positivamente</b> en
                     </h2>
                     

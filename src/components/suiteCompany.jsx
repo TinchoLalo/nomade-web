@@ -18,7 +18,7 @@ const Card = ({ imgSrc, title, description, linkText, url }) => (
         <div className="flex justify-center mt-6">
             <a 
                 href={url} 
-                className="text-center text-gray-600 font-semibold  hover:text-yellow-500 py-2 px-4 transition-colors duration-200 absolute bottom-4"
+                className="text-xl text-center text-gray-600 font-semibold  hover:text-yellow-500 py-2 px-4 transition-colors duration-200 absolute bottom-4"
             >
                 {linkText}
             </a>
@@ -43,28 +43,28 @@ export function SuiteCompany() {
                             title="Te ayudamos a fortalecer la cohesión de tu equipo y a transmitir tu cultura" 
                             description="con actividades Team Building con juegos didácticos para luego ser donados." 
                             linkText="Quiero más info" 
-                            url="/"
+                            url="#form"
                         />
                         <Card 
                             imgSrc={solucion2} 
                             title="Convertimos tus entrenamientos en capacitaciones efectivas" 
                             description="con consultoría en gamificación para tus procesos de onboarding, upskilling o reskilling" 
                             linkText="Quiero más info" 
-                            url="/"
+                            url="#form"
                         />
                         <Card 
                             imgSrc={solucion3} 
                             title="Impulsamos el reconocimiento a tus colaboradores" 
                             description="con programas de beneficios de regalos y actividades para celebraciones como Family Day." 
                             linkText="Quiero más info" 
-                            url="/"
+                            url="#form"
                         />
                         <Card 
                             imgSrc={solucion4} 
                             title="Despertemos juntos vocaciones digitales en tu comunidad" 
                             description="con programas de RSE para mejorar la empleabilidad de jóvenes." 
                             linkText="Quiero más info" 
-                            url="/"
+                            url="#form"
                         />
                     </div>
                 </div>

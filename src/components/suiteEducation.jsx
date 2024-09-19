@@ -18,7 +18,7 @@ const Card = ({ imgSrc, title, description, linkText, url }) => (
         <div className="flex justify-center mt-6">
             <a 
                 href={url} 
-                className="text-center text-gray-600 font-semibold  hover:text-yellow-500 py-2 px-4 transition-colors duration-200 absolute bottom-4"
+                className="text-xl text-center text-gray-600 font-semibold  hover:text-yellow-500 py-2 px-4 transition-colors duration-200 absolute bottom-4"
             >
                 {linkText}
             </a>
@@ -42,28 +42,28 @@ export function SuiteEducation() {
                             title="Facilitamos la gestión garantizando mayor transparencia y control." 
                             description="con un Sistema de Gestión Educativa en nuestra aplicación personalizada." 
                             linkText="Quiero más info" 
-                            url="https://www.youtube.com/watch?v=gT8J9mBsqm8&feature=youtu.be"
+                            url="https://youtu.be/gT8J9mBsqm8?si=4MZOGkqvWRFKBrWE"
                         />
                         <Card 
                             imgSrc={talento2} 
                             title="Transformamos tu aula en un espacio de creatividad e innovación." 
                             description="con Mobiliario y equipamiento flexible, adaptable y de rápida instalación y limpieza." 
                             linkText="Quiero más info" 
-                            url="/"
+                            url="#form"
                         />
                         <Card 
                             imgSrc={talento3} 
                             title="Potenciamos el talento de tus educadores en el uso de tecnología" 
                             description="con Cursos intensivos y prácticos con Certificació avalada por UTN." 
                             linkText="Quiero más info" 
-                            url="/"
+                            url="#form"
                         />
                         <Card 
                             imgSrc={talento4} 
                             title="Sumamos diversión volviendo más atractivo el aprendizaje" 
                             description="con Kits de Proyectos STEAM interactivos para facilitar labor docente." 
                             linkText="Quiero más info" 
-                            url="/"
+                            url="#form"
                         />
                     </div>
                 </div>
