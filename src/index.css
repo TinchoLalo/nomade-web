@@ -17,7 +17,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  color: #444E4E;
+  color: #2a2a2a;
 }
 
 .text-1 {
@@ -50,7 +50,7 @@ body {
     color: #EFEADC;
 }
 .color6 {
-    color: #444E4E;
+    color: #2a2a2a;
 }
 .color7 {
     color: #f4c434;

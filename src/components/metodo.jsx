@@ -25,14 +25,14 @@ export function Metodo() {
         <>  
             <section id="metodo"  className="w-screen flex bg-orange-50 overflow-hidden md:mt-20">
                 <div className="mt-20 w-full min-h-screens mmd:w-full mb-10 ">
-                    <h2 className="text-6xl font-semibold md:text-xl text-center w-[90%] mx-auto md:-mt-6">
+                    <h2 className="text-1 mmd:px-6 text-6xl  md:text-3xl md:text-center w-full text-center mx-auto z-20 relative">
                         ¿Por qué aseguramos un aprendizaje que <b>inspira y conecta</b>?
                     </h2>
                     
                     <div   className="flex flex-col mmd:flex-row justify-center text-center mx-auto items-center">
                         <div className="z-20 w-full mmd:w-2/4 text-left mt-10 text-1 mx-auto ml-40 2xl:ml-20 md:mx-auto ">
 
-                            <h3 className="text-6xl font-semibold md:text-4xl md:text-center md:text-4xl md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear ">Nuestra <br />metodología<br />
+                            <h3 className="text-5xl 4xl:text-6xl md:text-4xl md:text-center md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear">Diseñamos con <br />metodología<br />
                             <span 
                             className="bg-no-repeat bg-contain inline-block md:mt-2 mt-2 "
                             style={{
@@ -44,7 +44,7 @@ export function Metodo() {
                             >
                             <b>nómadeSTEAM</b>
                             </span></h3>
-                            <p className="text-xl w-[70%] text-justify md:mx-auto mt-8 md:w-[90%] animate-fade animate-once animate-duration-[2000ms] animate-ease-linear">
+                            <p className="text-xl w-[70%] text-justify md:mx-auto mt-2 md:w-[90%] animate-fade animate-once animate-duration-[2000ms] animate-ease-linear">
                                 que garantiza un aprendizaje más atractivo y eficiente fundamentándose en tres pilares clave:
                             </p>
                         </div>
@@ -53,15 +53,15 @@ export function Metodo() {
                             {["🎲", "💡", "📈"].map((emoji, index) => (
                                 <motion.div
                                     key={index}
-                                    className="duration-700 w-full mmd:w-[95%]  min-h-[10rem] md:min-h-[13rem] rounded-2xl p-8 bg-white mb-8"
+                                    className="duration-700 w-full mmd:w-[90%]  min-h-[10rem] md:min-h-[13rem] rounded-2xl p-8 bg-white mb-8"
                                     initial="hidden"
                                     whileInView="visible"
                                     variants={fadeInUp}
                                     viewport={{ once: true }}
                                 >
-                                    <h5 className="text-6xl flex text-left items-center absolute md:align-center md:mt-8 md:-ml-6">{emoji}</h5>
-                                    <h4 className="ml-20 block text-3xl text-left font-bold md:ml-14 md:text-2xl">{getMetodoTitle(index)}</h4>
-                                    <p className="ml-20 text-xl block text-left md:ml-14 md:text-lg">{getMetodoText(index)}</p>
+                                    <h5 className="text-5xl 4xl:text-6xl flex text-left items-center absolute md:align-center md:mt-8 md:-ml-6">{emoji}</h5>
+                                    <h4 className="ml-20 block text-2xl 4xl:text-3xl text-left font-bold md:ml-14 md:text-2xl">{getMetodoTitle(index)}</h4>
+                                    <p className="ml-20 4xl:text-xl block text-justify md:ml-14 text-lg">{getMetodoText(index)}</p>
                                 </motion.div>
                             ))}
                         </div>
@@ -73,7 +73,7 @@ export function Metodo() {
 }
 
 function getMetodoTitle(index) {
-    const titles = ["Gamificación", "Design thinking", "Por desafíos"];
+    const titles = ["Gamificación", "Design thinking", "Aprendizaje por desafíos"];
     return titles[index];
 }
 

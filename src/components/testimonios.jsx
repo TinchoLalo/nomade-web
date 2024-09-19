@@ -45,7 +45,7 @@ export function Testimonio() {
         <>
             <section id="testimonios" className="w-screen flex relative overflow-hidden bg-orange-50">
                 <div className="mt-20 w-full mb-20 ">
-                    <h2 className="text-6xl font-semibold md:text-4xl text-center md:mx-2">
+                    <h2 className="text-1 mmd:px-6 text-6xl  md:text-3xl md:text-center w-full text-center mx-auto z-20 relative">
                         Te contamos <b>testimonios</b> reales que nos <b>enorgullecen</b>
                     </h2>
 
@@ -53,26 +53,26 @@ export function Testimonio() {
                         {testimonies.map((testimonial, index) => (
                             <motion.div
                                 key={index}
-                                className="delay-700 w-[40%] h-[42rem] h-auto rounded-xl p-6 bg-white items-center mt-8 mx-8 z-10 md:w-[99%] md:mt-14 flexbox"
+                                className="delay-700 w-[40%] h-[44rem] 4xl:h-[35rem] md:h-[45rem] rounded-xl p-6 bg-white items-center mt-8 mx-8 z-10 md:w-[99%] md:mt-14 flexbox"
                                 initial="hidden"
                                 whileInView="visible"
                                 viewport={{ once: true, amount: 0.3 }}
                                 variants={variants}
                             >
-                                <div className="mt-10 relative mb-2 min-h-[10rem]">
+                                <div className="mt-10 relative min-h-[10rem] md:mb-6">
                                     <img
                                         src={testimonial.image}
                                         alt={testimonial.author}
-                                        className="w-[12rem] absolute left-[-4rem] top-[-3rem] grayscale md:left-[-3rem] md:top-[-1rem]"
+                                        className="w-[12rem] absolute left-[-2.5rem] top-[-3rem] grayscale md:left-[-3rem] md:top-[-1rem]"
                                     />
-                                    <h4 className="text-3xl ml-40 text-left  md:-mt-2">{testimonial.author}</h4>
+                                    <h4 className="text-2xl ml-[10rem] text-left md:mt-10">{testimonial.author}</h4>
                                     <img
                                         src={testimonial.logo}
                                         alt={testimonial.author}
-                                        className="mt-6 ml-40 w-40 opacity-40 md:w-32"
+                                        className="mt-6 ml-[10rem] w-32 opacity-40 md:w-32"
                                     />
                                 </div>
-                                <p className="text-lg text-justify p-2 mt-2">{testimonial.text}</p>
+                                <p className="text-lg text-justify p-2">{testimonial.text}</p>
                                 
                             </motion.div>
                         ))}

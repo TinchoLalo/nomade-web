@@ -46,7 +46,7 @@ function Nosotros() {
                 title="Logramos inspirar a innovar a miles de estudiantes de nuestra Ciudad"
                 description="gracias a una alianza con la Universidad Tecnológica Nacional diseñamos eventos libres y gratuitos que promueven la cultura maker y las competencias STEAM: Hackaton, Competencia de Robótica y Gadeco, declarados de interés provincial."
                 button="CONOCE NUESTROS EVENTOS"  
-                url="https://www.youtube.com/watch?v=rPXJwoDsY0E"
+                url="https://www.youtube.com/playlist?list=PLCw4OgFH9AsH4sMkxPJe_PRO6gfo7wTkT&feature=shared"
                 imagen={imagen2}
             />
 

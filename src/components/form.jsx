@@ -25,7 +25,7 @@ export function Form() {
         <>
             <section id="form" className="w-screen flex justify-center items-center mx-auto">
                 <div className="mt-24 mx-auto w-[85%] md:w-[98%] p-6 bg-white rounded-lg shadow-lg">
-                    <h2 className="text-6xl font-semibold md:text-4xl w-full text-center mb-8">
+                    <h2 className="text-1 mmd:px-6 text-6xl md:text-3xl w-full text-center mb-8">
                         Toda <b>solución</b>, comienza con una charla. <b>Hablemos</b>
                     </h2>
 
@@ -80,7 +80,7 @@ export function Form() {
                         <div className="text-left ">
                             <button
                                 type="submit"
-                                className="inline-block font-bold w-1/5 md:w-auto px-6 py-3 bg-color1 text-white font-semibold rounded-lg shadow-md hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color1"
+                                className="inline-block font-bold w-1/5 md:w-auto px-6 py-3 bg-color1 text-white font-semibold rounded-full shadow-md hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color1 "
                             >
                                 Enviar
                             </button>
