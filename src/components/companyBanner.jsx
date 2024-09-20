@@ -8,8 +8,8 @@ export function CompanyBanner() {
         <>  
             <section id="banner" className="w-screen flex ">
                 <div className="mt-60 w-full mb-80 md:mb-24 md:w-full md:mt-[28rem]">
-                    <h2 className="text-1 4xl:text-6xl text-5xl color6  w-3/6 text-left ml-24
-                    md:w-[90%] md:text-4xl md:mx-auto md:text-center">
+                    <h2 className="text-1 4xl:text-6xl text-5xl w-3/6 text-left ml-24
+                    md:w-[90%] md:text-4xl md:mx-auto md:text-center font-semibold">
                         Tenemos todo lo <br /> que necesitas para <br />
                         potenciar tu <span 
                             className="bg-no-repeat bg-contain inline-block "
@@ -20,15 +20,15 @@ export function CompanyBanner() {
                                 padding: '0 1rem'
                             }}
                         >
-                            equipo
+                            <b>equipo</b>
                         </span>
                     </h2>
-                    <p className="text-xl w-2/6 text-left ml-24 mt-6
+                    <p className="text-xl w-[40%] text-left ml-24 mt-6
                     lg:w-[85%] lg:mx-auto">
                     Nuestra suite de soluciones te permite mejorar tus capacitaciones, transmitir tu cultura y desarrollar tus programas de beneficios y RSE de manera simple, efectiva y <span className="font-bold">con impacto.</span>
                     </p>
 
-                    <a href="#suiteCompany" className="text-1 mt-6 p-4 px-6 my-4 text-white rounded-full text-left ml-24 float-left bg-color1 hover:bg-gray-400 text-2xl font-bold
+                    <a href="#suiteCompany" className="text-1 mt-6 p-4 px-6 my-4 text-white rounded-full text-left ml-24 float-left bg-gray-500 hover:text-amber-300  text-2xl font-bold
                     md:mx-auto lg:w-[65%] md:text-center md:text-xl md:px-2 md:ml-6 md:w-[85%]
                     ">CONOCE NUESTRA SUITE</a>
                     

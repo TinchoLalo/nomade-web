@@ -10,10 +10,8 @@ export function Banner() {
             <section id="banner" className="w-screen min-h-screen flex bg-orange-50">
                 <div className="mt mt-60  w-full min-h-screens md:w-full mx-auto text-center overflow-hidden relative">
                     
-                    <h2 className="z-20 relative text-1 text-7xl color6 w-2/3 text-center mx-auto 
-                    md:w-[90%] md:text-6xl md:mx-auto md:text-center 
-                    4xl:text-8xl 
-                    ">
+                    <h2 className="z-20 relative w-2/3 text-center mx-auto 
+                    md:w-[90%] text-7xl md:text-6xl 4xl:text-8xl ">
                         el <b>futuro</b>  del trabajo <br />
                         <span 
                             className="bg-no-repeat bg-contain inline-block md:mt-2 animate-fade-up animate-duration-1000 animate-ease-linear"
@@ -30,7 +28,7 @@ export function Banner() {
                    
                             
                     <p className="z-20 relative mx-[1rem] text-2xl mt-24 text-center border-amber-300 border-2 rounded-full px-10 inline-block text-amber-300
-                    md:text-lg md:mx-2 md:px-2 ">#edTeach</p>
+                    md:text-lg md:mx-2 md:px-2 ">#edTech</p>
 
                     <p className="z-20 relative mx-[1rem] text-2xl mt-24 text-center border-amber-300 border-2 rounded-full  px-10 inline-block text-amber-300 md:mt-2 md:text-lg md:mx-2 md:px-2 ">#FutureOfWork</p>
 

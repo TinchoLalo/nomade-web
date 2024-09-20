@@ -18,10 +18,11 @@ function Nosotros() {
     return (
         <div>
             
-            <h2 className="mt-60 mb-10 z-20 relative text-1 text-7xl color6 w-2/3 text-center mx-auto md:w-[95%] md:text-6xl md:mx-auto md:text-center font-semibold md:mt-40">
+            <h2 className="mt-60 mb-10 z-20 relative w-2/3 text-center mx-auto 
+                md:w-[90%] text-7xl md:text-6xl 4xl:text-8xl ">
                 nuestro camino<br /> hacia el
                 <span 
-                    className="bg-no-repeat bg-contain inline-block md:mt-2 "
+                    className="bg-no-repeat bg-contain inline-block md:mt-2 animate-fade-up animate-duration-1000 animate-ease-linear "
                     style={{
                         backgroundImage: `url(${forma2})`,
                         backgroundSize: '100%',
@@ -42,18 +43,18 @@ function Nosotros() {
             />
 
             <StoryRight    
-                frase="Llegar a la comunidad"
-                title="Logramos inspirar a innovar a miles de estudiantes de nuestra Ciudad"
-                description="gracias a una alianza con la Universidad Tecnológica Nacional diseñamos eventos libres y gratuitos que promueven la cultura maker y las competencias STEAM: Hackaton, Competencia de Robótica y Gadeco, declarados de interés provincial."
+                frase="Inspirar a la comunidad"
+                title="Con eventos libres y gratuitos"
+                description="co-organizados con la Universidad Tecnológica Nacional y declarados interés provincial."
                 button="CONOCE NUESTROS EVENTOS"  
                 url="https://www.youtube.com/playlist?list=PLCw4OgFH9AsH4sMkxPJe_PRO6gfo7wTkT&feature=shared"
                 imagen={imagen2}
             />
 
             <StoryLeft
-                frase="Para inspirar cada vez a más"
+                frase="Alianzas para crecer"
                 title="Creamos programas educativos de impacto social"
-                description="que permiten a empresas y gobiernos fomentar vocaciones digitales y mejorar la empleabilidad de jóvenes en un mundo hiperconectado y en constante cambio"
+                description="que permiten a empresas y gobiernos fomentar vocaciones digitales y mejorar la empleabilidad de jóvenes."
                 button="CONOCE NUESTROS PROGRAMAS"  
                 url="/#metodo"
                 imagen={imagen3}
@@ -69,16 +70,16 @@ function Nosotros() {
             />
 
             <StoryLeft
-                frase="La tecnología nos impacta a todos"
+                frase="La tecnología impacta a todos"
                 title="Creamos Nómade for Company"
-                description="una suite de soluciones modulares para empresas, enfrentando los desafíos del futuro del trabajo con un enfoque en habilidades blandas y tecnológicas."
+                description="una nueva unidad para acompañar a equipos de colaboradores a enfrentar los desafíos del trabajo."
                 button="CONOCE NÓMADE FOR COMPANY"  
                 url="/company"
                 imagen={imagen5}
             />
 
             <StoryRight    
-                frase="Expansión global"
+                frase="Alcance global"
                 title="Vamos a democratizar el acceso a la educación innovadora"
                 description="con nuestra metodología NómadeSTEAM y nuestro modelo de negocio de impacto, nos estamos preparando para escalar internacionalmente y llevar sus soluciones a nuevos lugares, te sumas al desafío?"
                 button="CONOCE NUESTRO ROADMAP"  

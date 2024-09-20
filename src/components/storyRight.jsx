@@ -33,12 +33,12 @@ export function StoryRight({ frase, title, description, button, url, imagen }) {
                         {/* Texto a la derecha en pantallas grandes, centrado en móviles */}
                         <div className="w-full mmd:w-3/4 text-left mt-20 md:mt-6 text-1 mx-auto md:text-center">
                             <h4 className="mx-auto mmd:w-[70%] text-3xl md:text-2xl md:text-center italic mb-4">{frase}</h4>
-                            <h3 className="text-5xl 4xl:text-6xl md:text-4xl md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear mmd:w-[70%] mx-auto">{title}</h3>
+                            <h3 className="title2 4xl:text-6xl md:text-4xl md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear mmd:w-[70%] mx-auto">{title}</h3>
                             
-                            <p className="text-1 text-xl mmd:w-[70%] md:w-full mt-2 mx-auto text-justify">{description}</p>
+                            <p className="des mmd:w-[70%] md:w-full mt-2 mx-auto text-justify">{description}</p>
 
                             <a href={url}>
-                                <button className="mmd:ml-28 text-2xl mt-4 mx-auto text-center bg-amber-300 rounded-full py-4 px-8 inline-block text-white font-semibold md:text-lg md:px-4">
+                                <button className="z-20 relative mmd:ml-28 text-2xl mt-4 mx-auto text-center bg-gray-500 hover:text-amber-300 rounded-full py-4 px-8 inline-block text-white font-semibold md:text-lg md:px-4">
                                     {button}
                                 </button>
                             </a>

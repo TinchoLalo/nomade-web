@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -7,6 +8,12 @@ import imagen1 from '../assets/images/soluciones/solucion0.png';
 import imagen2 from '../assets/images/soluciones/solucion5.png';
 
 export function Soluciones() {
+    const navigate = useNavigate();
+
+    const handleRedirect = (url) => {
+        navigate(url);
+    };
+
     const { ref, inView } = useInView({
         triggerOnce: true, // La animación se dispara solo una vez
         threshold: 0.2, // Ajusta cuánto del componente tiene que estar visible antes de disparar
@@ -29,11 +36,11 @@ export function Soluciones() {
                             animate={inView ? "visible" : "hidden"}
                             variants={fadeInVariants}
                         >
-                            <h3 className="text-5xl 4xl:text-6xl md:text-4xl md:text-center md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear">
+                            <h3 className="title 4xl:text-6xl md:text-4xl md:text-center md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear">
                                 Nuestras <br />soluciones<br />integrales
                             </h3>
-                            <p className="text-1 text-xl w-[90%] mt-8 md:mx-auto text-justify md:w-[90%]">
-                                Se <b>adaptan</b> a las necesidades específicas de <b>cada entorno</b> para fortalecer tanto empresas y organizaciones como instituciones educativas.
+                            <p className="des w-[80%] mt-8 md:mx-auto text-justify md:w-[90%]">
+                                Se <b>adaptan </b>a las necesidades específicas de <b>cada entorno</b>. Mediante experiencias <b>gamificadas</b> desarrollan <b>habilidades blandas</b> y mejoran la cohesión de equipos.
                             </p>
                         </div>
 
@@ -43,7 +50,7 @@ export function Soluciones() {
                             animate={inView ? "visible" : "hidden"}
                             variants={fadeInVariants}
                         >
-                            <div className="w-full mmd:w-[95%] h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20 fade-in slide-in-right">
+                            <div onClick={()=>handleRedirect("/company")} className="cursor-pointer w-full mmd:w-[95%] h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20 fade-in slide-in-right">
                                 <img src={imagen1} alt="experiencias" className="w-[25%] rounded-full md:w-[90%] md:mx-auto md:mt-[-5rem]" />
                                 <div className="mmd:ml-16 md:mt-6">
                                     <h4 className="text-5xl font-bold text-1 2xl:text-4xl md:text-3xl md:mb-4"><span className="text-3 text-5xl md:text-4xl">nómade</span> for <span className="text-3 text-5xl md:text-4xl">Company</span></h4>
@@ -52,7 +59,7 @@ export function Soluciones() {
                                 </div>
                             </div>
 
-                            <div className="w-full mmd:w-[95%] mt-10 h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20 z-20 fade-in slide-in-right">
+                            <div onClick={()=>handleRedirect("/education")} className="cursor-pointer w-full mmd:w-[95%] mt-10 h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20 z-20 fade-in slide-in-right">
                                 <img src={imagen2} alt="experiencias" className="w-[25%] rounded-full md:w-[90%] md:mx-auto md:mt-[-5rem]" />
                                 <div className="mmd:ml-16 md:mt-6">
                                     <h4 className="text-5xl font-bold text-1 2xl:text-4xl md:text-3xl md:mb-4"><span className="text-3 text-5xl md:text-4xl">nómade</span> for <span className="text-3 text-5xl md:text-4xl">Education</span></h4>
