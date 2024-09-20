@@ -21,12 +21,12 @@ export function StoryLeft({ frase, title, description, button, url, imagen }) {
                         {/* Texto a la izquierda (sin animación) */}
                         <div className="duration-200 w-full mmd:w-3/4 text-left mt-20 text-1 mx-auto ml-40 2xl:ml-20 md:mx-auto md:mt-[17rem]">
                             <h4 className="text-3xl md:text-2xl md:text-center mmd:w-[50%] italic mb-4">{frase}</h4>
-                            <h3 className="text-5xl 4xl:text-6xl md:text-4xl md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear mmd:w-[50%]">{title}</h3>
+                            <h3 className="title2 4xl:text-6xl md:text-4xl md:text-center animate-fade animate-once animate-duration-[2000ms] animate-ease-linear mmd:w-[50%]">{title}</h3>
 
-                            <p className="text-1 text-xl w-[50%] mt-2 md:mx-auto text-justify md:w-full">{description}</p>
+                            <p className="des w-[50%] mt-2 md:mx-auto text-justify md:w-full">{description}</p>
 
                             <a href={url}>
-                                <button className="mx-4 text-2xl mt-4 mx-auto text-center bg-amber-300 rounded-full py-4 px-8 inline-block text-white font-semibold md:text-lg md:mx-2 md:px-2">
+                                <button className="z-20 relative mx-4 text-2xl mt-4 mx-auto text-center bg-gray-500 hover:text-amber-300 rounded-full py-4 px-8 inline-block text-white font-semibold md:text-lg md:mx-2 md:px-2">
                                     {button}
                                 </button>
                             </a>

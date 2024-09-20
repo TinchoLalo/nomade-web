@@ -61,6 +61,7 @@ export function Menu({ page }) {
                 <div className="flex justify-between p-2 overflow-hidden relative top-0 left-0 md:h-16">
                     
                     <img src={forma} alt="forma" className="w-[400%] top-[-30rem] absolute opacity-[.05]" />
+                    
                     <Link to="/" className="flex p-1">
                         <img src={logo} alt="Logo" className="h-16 pl-2 md:h-12" />
                     </Link>

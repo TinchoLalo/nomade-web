@@ -26,9 +26,9 @@ export function Compromiso() {
     return (
         <>
             <section  className="w-screen flex bg-white relative overflow-hidden mx-auto text-center">
-                <div id="compromiso" className="mt-20 w-full min-h-screens mmd:p-10 mb-20 md:p-8 mx-auto text-center">
-                    <h2 className="text-1 mmd:px-6 text-6xl  md:text-3xl md:text-center w-full text-center mx-auto z-20 relative">
-                    Cada experiencia no solo <b>fortalece a tu equipo</b>, sino que <b>impacta positivamente</b> en
+                <div id="compromiso" className="mt-20 w-full min-h-screens mmd:p-10 mb-20 md:py-8 mx-auto text-center">
+                    <h2 className="title2 mmd:px-6 w-[80%] md:w-[90%] 4xl:text-6xl  md:text-3xl text-center mx-auto z-20 relative">
+                    Fortalece a tu equipo e <b>impacta</b> en
                     </h2>
                     
                     
@@ -36,7 +36,7 @@ export function Compromiso() {
 
                         
 
-                        <div className="w-full mmd:w-[70%] text-left mt-12 md:mt-32 text-1 mx-auto">
+                        <div className="w-[95%] mmd:w-[70%] text-left mt-12 md:mt-32 text-1 mx-auto">
                         
                             {/* Caja 1 */}
                             <motion.div
@@ -50,8 +50,8 @@ export function Compromiso() {
                                 <img src={imagen1} alt="experiencias" className="w-[20%] md:w-[80%] md:mx-auto md:text-center" />
                                 <div className="mmd:ml-12 ">
                                     <h4 className="text-4xl font-bold text-1 2xl:text-3xl md:mt-6 ">🤝 en las organizaciones</h4>
-                                    <p className="text-xl w-[90%] md:text-left md:mx-auto md:w-full md:mt-4  md:text-lg md:text-justify">
-                                    Con experiencias que <b>mejoran la cohesión, productividad y habilidades blandas</b> de los equipos para afrontar los desafíos del futuro
+                                    <p className="des text-xl w-[90%] md:mx-auto md:w-full md:mt-4  md:text-lg text-justify">
+                                    con experiencias que <b>mejoran la cohesión, productividad y habilidades blandas</b> de los colaboradores.
                                     </p>
                                 </div>
                             </motion.div>
@@ -68,8 +68,8 @@ export function Compromiso() {
                                 <img src={imagen2} alt="experiencias" className="w-[20%] md:w-[80%] md:mx-auto md:text-center" />
                                 <div className="mmd:ml-12">
                                     <h4 className="text-4xl font-bold text-1 2xl:text-3xl md:mt-6">❤️ en la comunidad</h4>
-                                    <p className="text-xl w-[90%]  md:text-left md:mx-auto md:w-full md:mt-4 md:text-lg md:text-justify">
-                                    Con propuestas diseñadas <b>para beneficiar a instituciones</b> educativas o ser <b>donadas</b> a ellas una vez aprovechadas por las organizaciones.
+                                    <p className="des text-xl w-[90%] md:mx-auto md:w-full md:mt-4 md:text-lg text-justify">
+                                    con propuestas diseñadas <b>para beneficiar a instituciones</b> o ser <b>donadas</b> a ellas una vez aprovechadas.
                                     </p>
                                 </div>
                             </motion.div>
@@ -85,9 +85,9 @@ export function Compromiso() {
                             >
                                 <img src={imagen3} alt="experiencias" className="w-[20%] md:w-[80%] md:mx-auto md:text-center" />
                                 <div className="mmd:ml-12">
-                                    <h4 className="text-4xl font-bold text-1 2xl:text-3xl md:mt-6">🌍 en las economias regionales</h4>
-                                    <p className="text-xl w-[90%]  md:text-left md:mx-auto md:w-full md:mt-4 md:text-lg md:text-justify">
-                                    Con una <b>producción descentralizada a través de alianzas</b> con emprendimientos y cooperativas locales impulsamos el crecimiento económico sostenible.
+                                    <h4 className="text-4xl font-bold text-1 2xl:text-3xl md:mt-6">🌍 en las economías regionales</h4>
+                                    <p className="des text-xl w-[90%] md:mx-auto md:w-full md:mt-4 md:text-lg text-justify">
+                                    con una <b>producción descentralizada a través de alianzas</b> con emprendimientos y cooperativas.
                                     </p>
                                 </div>
                             </motion.div>
@@ -104,8 +104,8 @@ export function Compromiso() {
                                 <img src={imagen4} alt="experiencias" className="w-[20%] md:w-[80%] md:mx-auto md:text-center" />
                                 <div className="mmd:ml-12">
                                     <h4 className="text-4xl font-bold text-1 2xl:text-3xl md:mt-6">🌿 en el medioambiente</h4>
-                                    <p className="text-xl w-[90%]  md:text-left md:mx-auto md:w-full md:mt-4 md:text-lg md:text-justify">
-                                    Con productos reutilizables, de <b>materiales y procesos 60% más amigables</b> con el medio ambiente.
+                                    <p className="des text-xl w-[90%] md:mx-auto md:w-full md:mt-4 md:text-lg text-justify">
+                                    con productos reutilizables, de <b>materiales y procesos 60% más amigables</b> por fabricación digital.
                                     </p>
                                 </div>
                             </motion.div>

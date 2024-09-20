@@ -39,29 +39,29 @@ export function SuiteEducation() {
                     <div className="w-[90%] mx-auto mt-14 flex flex-col mmd:flex-wrap mmd:flex-row justify-center gap-8 mmd:gap-4">
                         <Card 
                             imgSrc={talento1} 
-                            title="Facilitamos la gestión garantizando mayor transparencia y control." 
+                            title="Facilitamos la gestión garantizando mayor transparencia y control" 
                             description="con un Sistema de Gestión Educativa en nuestra aplicación personalizada." 
                             linkText="Quiero más info" 
                             url="https://youtu.be/gT8J9mBsqm8?si=4MZOGkqvWRFKBrWE"
                         />
                         <Card 
                             imgSrc={talento2} 
-                            title="Transformamos tu aula en un espacio de creatividad e innovación." 
-                            description="con Mobiliario y equipamiento flexible, adaptable y de rápida instalación y limpieza." 
+                            title="Transformamos tu aula en un espacio de creatividad e innovación" 
+                            description="con Mobiliario y equipamiento flexible, adaptable y de rápida instalación." 
                             linkText="Quiero más info" 
                             url="#form"
                         />
                         <Card 
                             imgSrc={talento3} 
                             title="Potenciamos el talento de tus educadores en el uso de tecnología" 
-                            description="con Cursos intensivos y prácticos con Certificació avalada por UTN." 
+                            description="con Cursos intensivos y prácticos con Certificación avalada por UTN." 
                             linkText="Quiero más info" 
                             url="#form"
                         />
                         <Card 
                             imgSrc={talento4} 
-                            title="Sumamos diversión volviendo más atractivo el aprendizaje" 
-                            description="con Kits de Proyectos STEAM interactivos para facilitar labor docente." 
+                            title="Sumamos diversión haciendo más atractivo el aprendizaje" 
+                            description="con Kits de Proyectos STEAM interactivos para facilitar la labor docente." 
                             linkText="Quiero más info" 
                             url="#form"
                         />

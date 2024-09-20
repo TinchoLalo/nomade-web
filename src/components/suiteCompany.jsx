@@ -48,14 +48,14 @@ export function SuiteCompany() {
                         <Card 
                             imgSrc={solucion2} 
                             title="Convertimos tus entrenamientos en capacitaciones efectivas" 
-                            description="con consultoría en gamificación para tus procesos de onboarding, upskilling o reskilling" 
+                            description="con consultoría en gamificación para tus procesos de onboarding o implementación." 
                             linkText="Quiero más info" 
                             url="#form"
                         />
                         <Card 
                             imgSrc={solucion3} 
                             title="Impulsamos el reconocimiento a tus colaboradores" 
-                            description="con programas de beneficios de regalos y actividades para celebraciones como Family Day." 
+                            description="con programas de beneficios de regalos y actividades Family Day." 
                             linkText="Quiero más info" 
                             url="#form"
                         />

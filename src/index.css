@@ -34,6 +34,31 @@ body {
     font-style: normal;
 }
 
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 62px;
+    line-height: 1;
+}
+
+.title2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.description {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+b {
+    font-weight: 600;
+}
+
 .color1 {
     color: #FFC912 ;
 }
