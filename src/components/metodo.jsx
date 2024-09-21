@@ -26,7 +26,7 @@ export function Metodo() {
             <section id="metodo"  className="w-screen flex bg-orange-50 overflow-hidden md:mt-20">
                 <div className="mt-20 w-full min-h-screens mmd:w-full mb-10 ">
                     <h2 className="title2 mmd:px-6 md:text-3xl md:text-center w-[80%] md:w-[90%] text-center mx-auto z-20 relative">
-                        ¿Por qué aseguramos un aprendizaje que <b>inspira y conecta</b>?
+                        ¿Cómo aseguramos un aprendizaje que <b>inspira y conecta</b>?
                     </h2>
                     
                     <div   className="flex flex-col mmd:flex-row justify-center text-center mx-auto items-center">

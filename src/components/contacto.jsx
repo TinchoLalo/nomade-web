@@ -8,7 +8,7 @@ import forma from '../assets/images/formas/forma4.svg';
 export function Contacto() {
     return (
         <footer 
-            className="mt-40 text-gray-400 py-8 relative bg-no-repeat bg-left bg-cover"
+            className="mt-40 text-gray-500 py-8 relative bg-no-repeat bg-left bg-cover"
             style={{ backgroundImage: `url(${forma})` }} // Usa la imagen como fondo
         >
             <div className="container mx-auto flex flex-col md:flex-row items-start md:items-center justify-between">
@@ -22,14 +22,14 @@ export function Contacto() {
                     <p className="text-lg font-semibold">Contacto:</p>
                     <a 
                         href="https://wa.me/0260 15-431-4640?text=Hola%20Nómade!" 
-                        className="text-gray-400 hover:text-amber-400 mt-2 block md:ml-2" 
+                        className="text-gray-600 hover:text-amber-400 mt-2 block md:ml-2" 
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
                         0260 15-431-4640
                     </a> 
 
-                    <a href="mailto:hablemos@nomademakerspace.com" className="text-gray-400 hover:text-amber-400 mt-2 block md:ml-2">
+                    <a href="mailto:hablemos@nomademakerspace.com" className="text-gray-600 hover:text-amber-400 mt-2 block md:ml-2">
                         hablemos@nomademakerspace.com
                     </a>
                 </div>
@@ -40,7 +40,7 @@ export function Contacto() {
                         href="https://www.instagram.com/nomade.steam/" 
                         target="_blank" 
                         rel="noopener noreferrer" 
-                        className="text-gray-400 hover:text-amber-400"
+                        className="text-gray-600 hover:text-amber-400"
                     >
                         <FaInstagram className="text-3xl" />
                         <span className="sr-only">Instagram</span>
@@ -50,7 +50,7 @@ export function Contacto() {
                         href="https://www.linkedin.com/company/nomademakerspace/" 
                         target="_blank" 
                         rel="noopener noreferrer" 
-                        className="text-gray-400 hover:text-amber-400"
+                        className="text-gray-600 hover:text-amber-400"
                     >
                         <CiLinkedin className="text-3xl" />
                         <span className="sr-only">LinkedIn</span>

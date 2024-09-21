@@ -62,19 +62,19 @@ export function Menu({ page }) {
                     
                     <img src={forma} alt="forma" className="w-[400%] top-[-30rem] absolute opacity-[.05]" />
                     
-                    <Link to="/" className="flex p-1">
-                        <img src={logo} alt="Logo" className="h-16 pl-2 md:h-12" />
+                    <Link to="/" className="flex p-1 z-20">
+                        <img src={logo} alt="Logo" className="h-16 pl-2 md:h-12 cursor-pointer"  />
                     </Link>
                     <nav className="flex md:hidden items-center text-center">
                         <ul className="flex gap-14 text-lg px-8">
                             <li className={`font-semibold z-30 p-2 px-4 pt-6 ${activeSection === 'inicio' ? 'text-[#FFC912]' : ''}`}>
                                 <Link to="/" className="hover:text-[#FFC912]">Inicio</Link>
                             </li>
-                            <li className={`font-semibold z-30 p-2 px-4 ${activeSection === 'nosotros' ? 'text-[#FFC912]' : ''}`}>
-                                <Link to="/nosotros" className="hover:text-[#FFC912]">Sobre <br />nosotros</Link>
+                            <li className={`font-semibold z-30 p-2 px-4 pt-6 ${activeSection === 'nosotros' ? 'text-[#FFC912]' : ''}`}>
+                                <Link to="/nosotros" className="hover:text-[#FFC912]">Sobre nosotros</Link>
                             </li>
-                            <li className={`font-semibold z-30 p-2 px-4 ${activeSection === 'company' || activeSection === 'education' ? 'text-[#FFC912]' : ''}`}>
-                                <a href="/#soluciones" className="hover:text-[#FFC912]">Nuestras<br />soluciones</a>
+                            <li className={`font-semibold z-30 p-2 px-4 pt-6 ${activeSection === 'company' || activeSection === 'education' ? 'text-[#FFC912]' : ''}`}>
+                                <a href="/#soluciones" className="hover:text-[#FFC912]">Nuestras soluciones</a>
                             </li>
                             <li className={`z-30 p-2 my-4 bg-gray-500 rounded-full ${activeSection === 'asesoria' ? 'text-[#FFC912]' : ''}`}>
                                 <a href="https://calendly.com/hablemos-nomademakerspace/30min" className="font-bold px-2 my-auto text-white hover:text-[#FFC912]">ASESORÍA GRATUITA</a>
