@@ -80,7 +80,7 @@ export function Form() {
                         <div className="text-left ">
                             <button
                                 type="submit"
-                                className="text-2xl mt-4 mx-auto text-center bg-gray-500 hover:text-amber-300 rounded-full py-4 px-8 inline-block text-white font-semibold md:text-lg md:px-4 md:mx-16 md:mt-10 "
+                                className="text-2xl mt-4 mx-auto text-center bg-gray-500 hover:text-amber-300 rounded-full py-4 px-8 inline-block text-white font-semibold md:text-lg md:px-10 md:mx-20 md:mt-10 "
                             >
                                 ENVIAR
                             </button>

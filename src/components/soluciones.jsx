@@ -54,7 +54,7 @@ export function Soluciones() {
                                 <img src={imagen1} alt="experiencias" className="w-[25%] rounded-full md:w-[90%] md:mx-auto md:mt-[-5rem]" />
                                 <div className="mmd:ml-16 md:mt-6">
                                     <h4 className="text-5xl font-bold text-1 2xl:text-4xl md:text-3xl md:mb-4"><span className="text-3 text-5xl md:text-4xl">nómade</span> for <span className="text-3 text-5xl md:text-4xl">Company</span></h4>
-                                    <p className="text-xl mt-2">La suite que potencia <span className="font-bold">entornos laborales y empresariales</span></p><br />
+                                    <p className="text-2 text-xl mt-2">La suite que potencia <span className="font-bold">entornos laborales y empresariales</span></p><br />
                                     <a href="/company" className="mt-2 text-xl font-medium text-black font-semibold hover:underline">Quiero más info →</a>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ export function Soluciones() {
                                 <img src={imagen2} alt="experiencias" className="w-[25%] rounded-full md:w-[90%] md:mx-auto md:mt-[-5rem]" />
                                 <div className="mmd:ml-16 md:mt-6">
                                     <h4 className="text-5xl font-bold text-1 2xl:text-4xl md:text-3xl md:mb-4"><span className="text-3 text-5xl md:text-4xl">nómade</span> for <span className="text-3 text-5xl md:text-4xl">Education</span></h4>
-                                    <p className="text-xl mt-2">La suite que potencia <span className="font-bold">entornos educativos y de formación</span></p><br />
+                                    <p className="text-2 text-xl mt-2">La suite que potencia <span className="font-bold">entornos educativos y de formación</span></p><br />
                                     <a href="/education" className="mt-2 text-xl font-medium text-black font-semibold hover:underline">Quiero más info →</a>
                                 </div>
                             </div>
