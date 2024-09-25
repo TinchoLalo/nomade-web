@@ -39,7 +39,7 @@ export function CompanyBanner() {
                 <img src={forma1} alt="company" className="absolute right-[-10rem] max-w-[60%] h-auto object-contain top-[10rem] opacity-[.2] md:opacity-[.4] md:rotate-180 md:top-[-2rem] md:right-0 md:left-0 md:mx-auto md:max-w-full md:w-full md:h-auto" />
 
                 <img src={banner1} alt="nuestro team" className="absolute right-16 max-w-[35%] h-auto object-contain top-40 animate-fade animate-duration-1000 animate-ease-linear
-                md:max-w-[90%] md:top-28 md:right-0 md:left-0 md:mx-auto" />
+                md:max-w-[90%] md:top-20 md:right-0 md:left-0 md:mx-auto" />
             </section>
 
         </>
