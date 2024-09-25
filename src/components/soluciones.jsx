@@ -45,12 +45,12 @@ export function Soluciones() {
                         </div>
 
                         <motion.div
-                            className="w-[80%] float-right mr-[-10rem] 2xl:mr-[-6rem] 2xl:w-full md:mx-auto md:float-center z-20"
+                            className="w-[80%] float-right mr-[-10rem] 2xl:mr-[-5rem] 2xl:w-[120%]  md:mx-auto md:float-center z-20"
                             initial="hidden"
                             animate={inView ? "visible" : "hidden"}
                             variants={fadeInVariants}
                         >
-                            <div onClick={()=>handleRedirect("/company")} className="cursor-pointer w-full mmd:w-[95%] h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20 fade-in slide-in-right">
+                            <div onClick={()=>handleRedirect("/company")} className="cursor-pointer w-full mmd:w-[95%] h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20 fade-in slide-in-right 2xl:pr-[1rem]">
                                 <img src={imagen1} alt="experiencias" className="w-[25%] rounded-full md:w-[90%] md:mx-auto md:mt-[-5rem]" />
                                 <div className="mmd:ml-16 md:mt-6">
                                     <h4 className="text-5xl font-bold text-1 2xl:text-4xl md:text-3xl md:mb-4"><span className="text-3 text-5xl md:text-4xl">nómade</span> for <span className="text-3 text-5xl md:text-4xl">Company</span></h4>
@@ -59,7 +59,7 @@ export function Soluciones() {
                                 </div>
                             </div>
 
-                            <div onClick={()=>handleRedirect("/education")} className="cursor-pointer w-full mmd:w-[95%] mt-10 h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20 z-20 fade-in slide-in-right">
+                            <div onClick={()=>handleRedirect("/education")} className="cursor-pointer w-full mmd:w-[95%] mt-10 h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20 z-20 fade-in slide-in-right 2xl:pr-[1rem]">
                                 <img src={imagen2} alt="experiencias" className="w-[25%] rounded-full md:w-[90%] md:mx-auto md:mt-[-5rem]" />
                                 <div className="mmd:ml-16 md:mt-6">
                                     <h4 className="text-5xl font-bold text-1 2xl:text-4xl md:text-3xl md:mb-4"><span className="text-3 text-5xl md:text-4xl">nómade</span> for <span className="text-3 text-5xl md:text-4xl">Education</span></h4>
