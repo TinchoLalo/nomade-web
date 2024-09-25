@@ -45,7 +45,7 @@ export function Soluciones() {
                         </div>
 
                         <motion.div
-                            className="w-[80%] float-right mr-[-10rem] 2xl:mr-[-5rem] 2xl:w-[120%]  md:mx-auto md:float-center z-20"
+                            className="w-[80%] float-right mr-[-10rem] 2xl:mr-[-5rem] 2xl:w-[120%]  md:mx-auto md:float-center z-20 md:w-full"
                             initial="hidden"
                             animate={inView ? "visible" : "hidden"}
                             variants={fadeInVariants}
