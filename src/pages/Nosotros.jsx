@@ -71,9 +71,9 @@ function Nosotros() {
 
             <StoryLeft
                 frase="La tecnología impacta a todos"
-                title="Creamos Nómade for Companies"
+                title="Creamos Nómade in Companies"
                 description="una nueva unidad para acompañar a equipos de colaboradores a enfrentar los desafíos del trabajo."
-                button="CONOCE NÓMADE FOR COMPANIES"  
+                button="CONOCE NÓMADE IN COMPANIES"  
                 url="/company"
                 imagen={imagen5}
             />

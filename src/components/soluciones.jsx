@@ -53,7 +53,7 @@ export function Soluciones() {
                             <div onClick={()=>handleRedirect("/company")} className="cursor-pointer w-full mmd:w-[95%] h-auto mmd:rounded-l-full p-6 bg-color3 mmd:flex items-center md:rounded-3xl md:mt-20 fade-in slide-in-right 2xl:pr-[1rem]">
                                 <img src={imagen1} alt="experiencias" className="w-[25%] rounded-full md:w-[90%] md:mx-auto md:mt-[-5rem]" />
                                 <div className="mmd:ml-16 md:mt-6">
-                                    <h4 className="text-5xl font-bold text-1 2xl:text-4xl md:text-3xl md:mb-4"><span className="text-3 text-5xl md:text-4xl">nómade</span> for <span className="text-3 text-5xl md:text-4xl">Companies</span></h4>
+                                    <h4 className="text-5xl font-bold text-1 2xl:text-4xl md:text-3xl md:mb-4"><span className="text-3 text-5xl md:text-4xl">nómade</span> in <span className="text-3 text-5xl md:text-4xl">Companies</span></h4>
                                     <p className="text-2 text-xl mt-2">La suite que potencia <span className="font-bold">entornos laborales y empresariales</span></p><br />
                                     <a href="/company" className="mt-2 text-xl font-medium text-black font-semibold hover:underline">Quiero más info →</a>
                                 </div>
