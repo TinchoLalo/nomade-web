@@ -12,7 +12,7 @@ export function Banner() {
                     
                     <h2 className="z-20 relative w-2/3 text-center mx-auto 
                     md:w-[90%] text-7xl md:text-6xl 4xl:text-8xl ">
-                        el <b>futuro</b>  del trabajo <br />
+                        el futuro es hoy,  <br />¿lo 
                         <span 
                             className="bg-no-repeat bg-contain inline-block md:mt-2 animate-fade-up animate-duration-1000 animate-ease-linear"
                             style={{
@@ -22,7 +22,7 @@ export function Banner() {
                                 padding: '.4rem 3rem'
                             }}
                         >
-                            es <b>hoy</b>
+                            <b>jugamos?</b>
                         </span>
                     </h2>
                    
